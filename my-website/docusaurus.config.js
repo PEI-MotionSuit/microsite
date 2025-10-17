@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'MotionSuit',
+  //tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -27,10 +27,10 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'MotionSuit', // Usually your GitHub org/user name.
+  projectName: 'MotionSuit', // Usually your repo name.
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -49,24 +49,24 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
+          showReadingTime: false,
+          //feedOptions: {
+          //  type: ['rss', 'atom'],
+          //  xslt: true,
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+          //onInlineTags: 'warn',
+          //onInlineAuthors: 'warn',
+          //onUntruncatedBlogPosts: 'warn',
+        //},
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -78,14 +78,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
-      colorMode: {
-        respectPrefersColorScheme: true,
-      },
+      image: 'img/logo.svg',
       navbar: {
-        title: 'My Site',
+        title: 'MontionSuit',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'MontionSuit Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -93,60 +90,34 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog/Milestones', label: 'Milestones', position: 'left'},
+          {to: '/blog/Sprints', label: 'Sprints', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            to: "https://github.com/PEI-iron-man-suit",
+            label: "GitHub",
+            position: "right",
+            className: "github-link",
+          },
+          {
+            to: "https://pei2025.atlassian.net/jira/software/projects/KAN/boards/1",
+            label: "Jira",
+            position: "right",
+            className: "jira-link",
           },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        logo: {
+          alt : 'FlexiGather repository on GitHub',
+          src: 'img/icons8-github-96.png',
+          href: 'https://github.com/PEI-iron-man-suit',
+          width: 40,
+          height: 40,
+        },
+        copyright: `<a href="docs/about_us">Group 2,</a> <a href ="https://www.ua.pt/"> University of Aveiro</a> <br> Copyright © ${new Date().getFullYear()} MotionSuit, Projeto de Engenharia Informática`,
       },
       prism: {
         theme: prismThemes.github,
