@@ -74,6 +74,18 @@ const config = {
     ],
   ],
 
+ plugins: [
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      id: 'Milestones',
+      path: 'docs-Milestones',
+      routeBasePath: 'Milestones',
+      sidebarPath: require.resolve('./sidebarMilestones.js'), // ✅ Novo arquivo
+    },
+  ],
+],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -92,8 +104,15 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/blog/Milestones', label: 'Milestones', position: 'left'},
-          {to: '/blog/Sprints', label: 'Sprints', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'MilestonesSidebar',
+            docsPluginId: 'Milestones',
+            position: 'left', 
+            label: 'Milestones',
+          },
+
+          {to: '/blog', label: 'Sprints', position: 'left'},
           {
             to: "https://github.com/PEI-iron-man-suit",
             label: "GitHub",
