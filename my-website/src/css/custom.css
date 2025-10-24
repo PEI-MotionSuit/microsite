@@ -38,6 +38,42 @@
   color: white;
 }
 
+/* Imagem à esquerda */
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px; /* ajusta conforme necessário */
+  height: 100%;
+  background-image: url('/static/img/frente.png'); /* substitui pelo teu caminho */
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+  z-index: 1; /* fica por cima do fundo, mas atrás do conteúdo */
+}
+
+/* Imagem à direita */
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px; /* ajusta conforme necessário */
+  height: 100%;
+  background-image: url('/static/img/tras.png'); /* substitui pelo teu caminho */
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  z-index: 1;
+}
+
+/* Garante que o conteúdo do header fique por cima das imagens laterais */
+.header > * {
+  position: relative;
+  z-index: 2;
+}
+
 .footer {
   text-align: center;
   align-items: center;

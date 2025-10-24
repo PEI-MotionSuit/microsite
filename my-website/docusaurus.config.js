@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://motionsuit.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/microsite/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'MotionSuit', // Usually your GitHub org/user name.
-  projectName: 'MotionSuit', // Usually your repo name.
+  organizationName: 'PEI-MotionSuit', // Usually your GitHub org/user name.
+  projectName: 'microsite', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -114,7 +114,7 @@ const config = {
 
           {to: '/blog', label: 'Sprints', position: 'left'},
           {
-            to: "https://github.com/PEI-iron-man-suit",
+            to: "https://github.com/PEI-MotionSuit",
             label: "GitHub",
             position: "right",
             className: "github-link",
@@ -132,7 +132,7 @@ const config = {
         logo: {
           alt : 'FlexiGather repository on GitHub',
           src: 'img/icons8-github-96.png',
-          href: 'https://github.com/PEI-iron-man-suit',
+          href: 'https://github.com/PEI-MotionSuit',
           width: 40,
           height: 40,
         },
