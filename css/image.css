@@ -1,0 +1,15 @@
+.persona {
+    display: flex;
+    justify-content: center;
+}
+
+.persona .persona_info {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.persona .persona_img {
+    max-height: 15rem;
+}
