@@ -15,7 +15,7 @@ The main actors are the **suit users**, the **administrators** and the **researc
 3. User must connect the suit to his account
 4. The app should analyse the data collected from the suit 
 5. The app should alert the user if the posture is not correct
-6. System must analyze movement data in real-time (latency `<100ms`)
+6. System must analyze movement data in real-time
 7. The app should alert the user if the posture is not correct. It must be triggered when: <br />
    a. Incorrect posture maintained for >30 seconds <br />
    b. Joint angles exceed safe limits <br />

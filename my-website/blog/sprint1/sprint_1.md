@@ -16,7 +16,7 @@ title: Sprint 1
 **Developers**: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro
 ## Sprint Goal
 
-In order to complete the second milestone of our project, it is expectable to conclude the following sprints goals:
+In order to complete the first milestone of our project, it is expectable to conclude the following sprints goals:
 
 - Functional requirements
 - Non-functional requirements
