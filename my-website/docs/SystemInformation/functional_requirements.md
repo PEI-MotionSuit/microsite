@@ -1,84 +1,62 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 # Functional Requirements
 
-Since the FlexiGather is a big system we will have many actors. The main actors are the **participants**, the **medical, sales and entrance staff** and the **administrators**.
+Since the FlexiGather is a big system we will have 3 main actors. The main actors are the **suit users**, the **administrators** and the **researchers**.
 
 ## Funcional Requirements
 
 The funcional requirements are used to define the function of a software system.
-We will separate the requirements by actors.
 
-### Participants Requirements
-To be implemented in the **user interface**.
-
-- The participants will have access to their data, such as personal info and balance.
-- Allow the participants to enter and leave the premises.
-- The participants can be admitted to the medical center.
-- The participants can add money to their account.
-- The participants can buy a product.
-- The participants can exchange a product.
-- The participants can raise their balance in the end of the event.
-- The participants can receive a *push message* from the medical center.
-
-### Medical Requirements
-To be implemented in the **medical interface**.
-
-- The medical staff can access the participant's pre-filled medical file.
-- The medical staff can create a new treatment file for a participant.
-- The medical staff can access the participant's treatment file's history.
-- The medical staff can admit a patient.
-- The medical staff will have acces to medical reports.
-
-### Sales Requirements
-To be implemented in the **kiosk interface**.
-
-**Point of sale**
-- Allow the registration of a sale.
-- Allow the exchange of a product.
-- The sales staff can consult the stock of the products.
-
-**Loading point**
-- Allow money to be loaded into the accounts of the participants.
-- Return the remaining balance of the participants, at the end of the event.
-
-**Both**
-- The sales staff can see the participant's balance.
-
-### Administration Requirements
-To be implemented in the **administration interface**.
-
-- Allow the check-in of the participants.
-- Allow the check-out of the participants.
-- Allow the registration of participants.
-- Allow the registration of staff.
-- Allow the registration of all the entities related to the event theme.
-- The administration staff can access the participants personal information.
-- The administration staff can access the current products stock.
-- Offer workflow informations.
-- Update and replace product stock.
-
-To be implemented in the **dashboard**.
-
-- The administration staff can access all the participants entrance and exit flow.
-- The administration staff can access the medical center history.
-- The administration staff can access which sales or loading points are open or closed.
+### User Management and Authentication
+- The system must allow new user registration.
+- The system must implement secure authentication (login/logout).
+- The system must support multiple profiles (User, Researcher, Administrator).
+- The system must allow the user to connect the costume to the user account.
 
 
-### Entrance Requirements (staff at the entrance of the event)
-To be implemented in the **access interface**.
+### Data Capture and Processing
+- The system must capture real-time movement data from sensors.
+- The system must process physiological data (heart rate, temperature).
+- The system must calculate joint angles and postural metrics.
+- The system must analyze movement patterns in real time.
+- The system must be able to capture user movements and access data in real time.
+- The system must perform analysis on user movements, showing a "trend" over time.
 
-- Record entries of the participants.
-- Record exits of the participants.
+### Alerts and Notifications System
+- The system must generate alerts when incorrect postures are maintained for >30 seconds.
+- The system must notify when joint angles exceed safe limits.
+- The system must support multiple alert types (in-app notification, audio, visual).
+- The system must warn the user (through notifications and alerts) of potentially harmful postures.
 
-### General Requirements
+### Visualization and Dashboard
+- The system should display real-time metrics (updated every 2 seconds).
+- The system should display visual status indicators (Green/Yellow/Red).
+- The system should provide historical views with trend graphs.
+- The system should allow filtering of data by period (7 days, 30 days, 3 months).
+- The system should present a dashboard with the information obtained by the sensors.
 
-The system should allow **all its users** to:
-- Login and logout.
-- Change their password.
-- Have specialized accesses according to their role.
-- Filter data in the interfaces they use.
+
+### Goal and Progress Management
+- The system should allow you to set personalized postural improvement goals.
+- The system should track progress in real time with visual indicators.
+- The system should implement a rewards and achievements system.
+- The system should provide weekly progress reports.
+
+
+### Calibration and Maintenance
+- The system must monitor battery status.
+
+### Data Management and Data Export
+- The system should allow data export in PDF, CSV, and JSON formats.
+- The system should generate comparison reports between users or periods.
+
+
+### System Administration
+- The system should allow user account management (create/edit/deactivate).
+- The system should provide an administrative dashboard with system metrics.
+- The system should maintain activity logs for all users.
 
 <!-- r -->

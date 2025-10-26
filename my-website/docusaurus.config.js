@@ -92,7 +92,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/logo.svg',
       navbar: {
-        title: 'MontionSuit',
+        title: 'MotionSuit',
         logo: {
           alt: 'MontionSuit Logo',
           src: 'img/logo.svg',
