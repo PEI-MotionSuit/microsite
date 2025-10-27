@@ -11,7 +11,7 @@ const CustomNextArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "orange"}} // Exemplo de estilo customizado
+      style={{ ...style, display: "block", background: "#25b2cb"}} // Exemplo de estilo customizado
       onClick={onClick}
     />
   );
@@ -22,7 +22,7 @@ const CustomPrevArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "orange" }} // Exemplo de estilo customizado
+      style={{ ...style, display: "block", background: "#25b2cb" }} // Exemplo de estilo customizado
       onClick={onClick}
     />
   );
@@ -36,7 +36,7 @@ const ImageCarousel = ({ items }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     nextArrow: <CustomNextArrow />,
     prevArrow: <CustomPrevArrow />,
   };
@@ -47,12 +47,12 @@ const ImageCarousel = ({ items }) => {
         <div key={idx}>
           <img src={item.url} alt={`Slide ${idx}`} style={{ width: "100%" }} />
           <p style={{ textAlign: "center", fontSize:"30px", 
-                      backgroundColor: "rgba(255, 165, 0, 0.5)", 
-                      padding: "10px 20px", // Espaçamento interno para que o texto não fique muito perto das bordas
+                      backgroundColor: "#25b2cb", 
+                      padding: "5px 10px", // Espaçamento interno para que o texto não fique muito perto das bordas
                       borderRadius: "10px", // Bordas redondas
                       margin: "0", // Remove a margem padrão do <p>
                       position: "absolute", // Posicionamento absoluto
-                      bottom: "10px", // 10px acima do fundo do slide
+                      bottom: "0px", // 10px acima do fundo do slide
                       zIndex: 30,
                       }}>{item.caption}</p> 
         </div>

@@ -19,7 +19,6 @@ Overall, while many competitors offer specialized focus areas, like sports or po
 |                    | DorsaVI | FlexiTrace | SmartPosture | SwordHealth | Vital Jacket | MotionSplit |
 |--------------------|---------|------------|--------------|-------------|--------------|-------------|
 | Wearable Sensors   | ✅      | ❌         | ❌           | ❌          | ✅           | ✅          |
-| Physiological Monitoring | ❌ | ❌         | ❌           | ❌          | ✅           | ✅          |
 | Performance Analytics | ✅    | ✅         | ✅           | ✅          | ❌           | ✅          |
 | Real-Time Feedback | ✅      | ❌         | ❌           | ✅          | ✅           | ✅          |
 | Gamification       | ❌      | ✅         | ❌           | ❌          | ❌           | ✅          |
