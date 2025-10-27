@@ -19,7 +19,6 @@ The collected data will be processed into meaningful metrics and presented throu
 
 1. Advanced technology integration
 2. Specialized Access Management
-3. Improved user posture
-4. Strengthening safety and health
-5. Data analysis and reports
-6. Reduce ergonomic risks
+3. Strengthening safety and health
+4. Data analysis and reports
+5. Reduce ergonomic risks
