@@ -2,4 +2,9 @@
 sidebar_position: 1
 ---
 
-# Mockups
+# Mock-ups
+
+## Sketchs of all the interfaces
+
+### - Access Interface
+![image](@site/static/img/mockups/access.png)

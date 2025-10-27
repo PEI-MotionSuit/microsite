@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 
 import '@site/static/css/image.css'
-import Estudante from '@site/static/img/personas/estudante.png';
+import Estudante from '@site/static/img/personas/estudante.jpeg';
 import Construtor from '@site/static/img/personas/construtor.jpeg';
 import Administrador from '@site/static/img/personas/admin.jpg';
 import Investigadora from '@site/static/img/personas/investigadora.jpg';
@@ -12,7 +12,7 @@ import Trabalhador from '@site/static/img/personas/fabrica.jpg';
 
 # Personas
 
-### Users
+### Suit Users
     
 <!-- <div  style={{ textAlign: 'justify' }} > -->
 
@@ -56,15 +56,17 @@ import Trabalhador from '@site/static/img/personas/fabrica.jpg';
 <div class="persona">
     <img src={Estudante} class="persona_img" />
     <div class="persona_info">
-        **Matilde Rodrigue** is a 20-year-old DETI university student who has been pursuing her studies for the past three years. She spends most of her days attending lectures, working on projects, and studying for long hours, often sitting in front of a computer. While she is comfortable with modern technology and uses it daily for academic purposes, she doesn’t always pay attention to her posture during study sessions. Over time, this habit has led to occasional back and neck discomfort, especially after long periods of concentration.
+        **Sara Gonçalves** is a 20-year-old DETI university student who has been pursuing her studies for the past three years. She spends most of her days attending lectures, working on projects, and studying for long hours, often sitting in front of a computer. While she is comfortable with modern technology and uses it daily for academic purposes, she doesn’t always pay attention to her posture during study sessions. Over time, this habit has led to occasional back and neck discomfort, especially after long periods of concentration.
     </div>
 </div>
 
-> **_Motivation:_** Matilde wants to improve her posture to feel more comfortable while studying and to prevent potential physical problems that could develop in the future due to prolonged sitting.
+<br />
 
-> **_Use Case:_** Matilde uses the MotionSuit while studying to monitor her posture during long sessions at her desk. The system provides real-time alerts when she slouches or sits incorrectly, encouraging her to maintain a healthy and comfortable position.
+> **_Motivation:_** Sara wants to improve her posture to feel more comfortable while studying and to prevent potential physical problems that could develop in the future due to prolonged sitting.
 
-> **_Scenario:_** After several hours of studying for an exam, Matilde begins to slouch over her laptop without realizing it. The MotionSuit sends her a soft vibration alert, reminding her to straighten her back. She adjusts her posture and continues studying more comfortably. At the end of the week, she reviews the dashboard, which shows a clear decrease in posture alerts. She feels proud that the system helps her prevent potential long-term back issues while improving her concentration and comfort.
+> **_Use Case:_** Sara uses the MotionSuit while studying to monitor her posture during long sessions at her desk. The system provides real-time alerts when she slouches or sits incorrectly, encouraging her to maintain a healthy and comfortable position.
+
+> **_Scenario:_** After several hours of studying for an exam, Sara begins to slouch over her laptop without realizing it. The MotionSuit sends her a soft vibration alert, reminding her to straighten her back. She adjusts her posture and continues studying more comfortably. At the end of the week, she reviews the dashboard, which shows a clear decrease in posture alerts. She feels proud that the system helps her prevent potential long-term back issues while improving her concentration and comfort.
 
 <br />
 
@@ -77,6 +79,8 @@ import Trabalhador from '@site/static/img/personas/fabrica.jpg';
         
     </div>
 </div>
+
+<br />
 
 > **_Motivation:_** João is motivated to ensure that the project is developed efficiently, maintaining both scientific rigor and practical applicability, so that the final outcome is reliable, useful, and aligned with real-world needs.
 
@@ -93,9 +97,10 @@ import Trabalhador from '@site/static/img/personas/fabrica.jpg';
     <div class="persona_info">
         **Joana Almeida** is a 24-year-old researcher who has been working in her field for the past three years. With a strong academic background and curiosity about human behavior and biomechanics, she focuses her work on studying how people move and interact in different environments. Joana is familiar with current technology and often uses digital tools and data analysis software in her research. Her work involves collecting, processing, and interpreting data related to human posture and movement to better understand how these factors influence physical well-being and performance.
 
-        > **_Motivation:_** Joana aims to collect and analyze information about human movements in different contexts and conditions to monitor posture, identify movement patterns, and detect potential risk factors that could lead to physical issues.
     </div>
-</div>
+</div> 
+
+<br />
 
 > **_Motivation:_** Joana aims to collect and analyze information about human movements in different contexts and conditions to monitor posture, identify movement patterns, and detect potential risk factors that could lead to physical issues.
 

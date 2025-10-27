@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Functional Requirements
 
-Since the FlexiGather is a big system we will have 3 main actors. The main actors are the **suit users**, the **administrators** and the **researchers**.
+Since the MotionSuit is a big system we will have 3 main actors. The main actors are the **suit users**, the **administrators** and the **researchers**.
 
 ## Funcional Requirements
 
