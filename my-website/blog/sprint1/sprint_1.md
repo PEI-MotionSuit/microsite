@@ -20,7 +20,8 @@ In order to complete the first milestone of our project, it is expectable to con
 
 - Functional requirements
 - Non-functional requirements
-- Personas and Use Cases
+- Personas
+- Use Cases
 - User Stories
 - UI Mockups
 - Architecture and Design
@@ -31,9 +32,9 @@ In order to complete the first milestone of our project, it is expectable to con
 
 | Expected     | Quantity |
 | ------------ | -------- |
-| Tasks        | 9        |
+| Tasks        | 10        |
 | Epics        | 1        |
-| Story Points | 50       |
+| Story Points | 55       |
 
 ## Sprint Backlog
 
@@ -41,36 +42,38 @@ In order to complete the first milestone of our project, it is expectable to con
 | --------------- | --------------------------- | ---------------------------------------------- | ----- | ------------ |
 | Trail-1         | State of the Art            | Beatriz Francisco                              | Done  | 5            |
 | Trail-2         | Functional Requirements     | Mariana Marques                                | Done  | 5            |
-| Trail-3         | Personas and Use Cases      | All                                            | Done  | 5            |
-| Trail-4         | User Stories                | Matilde Rodrigues e Mariana Marques            | Done  | 5            |
-| Trail-5         | Architecture and design     | Marta Cruz                                     | Done  | 5            |
-| Trail-6         | Non-functional Requirements | Mariana Marques                                | Done  | 5            |
-| Trail-7         | Microsite                   | Catarina Ribeiro                               | Done  | 5            |
-| Trail-8         | UI Mockups                  | Marta Cruz                                     | Not Done  | 5            |
-| Trail-9         | Technologies                | All                                            | Done  | 5            |
-| Trail-10        | Update Documentation        | All                                            | Not Done  | 5            |
+| Trail-3         | Non-functional Requirements | Mariana Marques                                | Done  | 5            |
+| Trail-4         | Personas                    | All                                            | Done  | 5            |
+| Trail-5         | Use Cases                   | Mariana Marques e Beatriz Francisco            | Done  | 5            |
+| Trail-6         | User Stories                | Matilde Rodrigues e Mariana Marques            | Done  | 5            |
+| Trail-7         | Architecture and design     | Marta Cruz                                     | Done  | 5            |
+| Trail-8         | Microsite                   | Catarina Ribeiro                               | Done  | 5            |
+| Trail-9         | UI Mockups                  | Marta Cruz e Catarina Ribeiro                  | Not Done  | 5            |
+| Trail-10        | Technologies                | All                                            | Not Done  | 5            |
+| Trail-11        | Update Documentation        | All                                            | Done  | 5            |
 
 ### Task Status (Completed/Not Completed)
 
 - [x] Trail-1: State of the Art
 - [x] Trail-2: Functional Requirements
-- [x] Trail-3: Personas and Use Cases
-- [x] Trail-4: User Stories
-- [x] Trail-5: Architecture
-- [x] Trail-6: Non-functional Requirements
-- [x] Trail-7: Microsite
-- [ ] Trail-8: UI Mockups
-- [x] Trail-9: Technologies
-- [ ] Trail-10: Update Documentation
+- [x] Trail-3: Non-functional Requirements
+- [x] Trail-4: Personas and 
+- [x] Trail-5: Use Cases
+- [x] Trail-6: User Stories
+- [x] Trail-7: Architecture
+- [x] Trail-8: Microsite
+- [ ] Trail-9: UI Mockups
+- [ ] Trail-10: Technologies
+- [x] Trail-11: Update Documentation
 
 ## Sprint Review
 
 | Concluded    | Quantity |
 | ------------ | -------- |
-| Tasks        | 7        |
+| Tasks        | 8        |
 | Epics        | 1        |
-| Story Points | 40       |
+| Story Points | 45       |
 
 ## Sprint Retrospective
 
-This sprint saw substantial completion of tasks including UI mockups and updating project documentation. However, not all mockups were finalized, as only a few were required at this stage to support ongoing development. The remaining mockups will be created in future sprints as the design evolves and additional features are defined. Documentation updates were also delayed due to limited time and the need to prioritize other critical development tasks. Moving forward, the team plans to dedicate more time to documentation and design updates in upcoming sprints to ensure all project materials remain complete and aligned with progress.
+This sprint saw substantial completion of tasks including UI mockups and updating project documentation. However, not all mockups were finalized, as only a few were required at this stage to support ongoing development. The remaining mockups will be created in future sprints as the design evolves and additional features are defined. Deciding which technologies to use was also delayed due to limited time and the need to prioritize other critical development tasks. Moving forward, the team plans to dedicate more time to technologies and design updates in upcoming sprints to ensure all project materials remain complete and aligned with progress.
