@@ -45,10 +45,6 @@ The funcional requirements are used to define the function of a software system.
 - The system should implement a rewards and achievements system.
 - The system should provide weekly progress reports.
 
-
-### Calibration and Maintenance
-- The system must monitor battery status.
-
 ### Data Management and Data Export
 - The system should allow data export in PDF, CSV, and JSON formats.
 - The system should generate comparison reports between users or periods.
