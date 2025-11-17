@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # User Stories
@@ -146,14 +146,6 @@ The main actors are the **suit users**, the **administrators** and the **researc
 
 
 <br />
-
--> <u>*US-9:*</u> **As a** suit user **I want** to monitor battery status **so that** I can plan my usage and avoid interruptions during important activities.
-
-**Acceptance Criteria:**
-1. Comprehensive battery monitoring:<br />
-    a. Real-time battery percentage display<br />
-2. Smart battery notifications:<br />
-    a. Low battery warnings (20%, 10%, 5%)
 
 
 

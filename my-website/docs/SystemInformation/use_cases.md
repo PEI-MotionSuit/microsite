@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 import SuitUsers from "@site/static/img/useCases/suit_users.jpg";
@@ -156,19 +156,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 
 
-### UC-9 – Monitor Battery Status
-**Actor:** Suit User <br />
-**Description:** Check and manage suit battery.
-
-**Main Flow:**
-1. View Battery Status in app.
-2. System shows % and estimated runtime.
-3. Notifications at 20 %, 10 %, 5 %.
-
-**Postconditions**:** User reminded to recharge suit.
-
-
-### UC-10 – Access Full System Information
+### UC-9 – Access Full System Information
 **Actor:** Administrator <br />
 **Description:** View all project and user data for monitoring.
 
@@ -184,7 +172,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 
 
-### UC-11 – Manage User Accounts
+### UC-10 – Manage User Accounts
 **Actor:** Administrator <br />
 **Description:** Create, modify, or deactivate accounts.
 
@@ -197,7 +185,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Postconditions:** Account changes saved in system database.
 
 
-### UC-12 – Analyze Captured Data
+### UC-11 – Analyze Captured Data
 **Actor:** Researcher <br />
 **Description:** Investigate postural deviations and patterns.
 
@@ -214,7 +202,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 
 
-### UC-13 – Compare Data Across User Groups
+### UC-12 – Compare Data Across User Groups
 **Actor:** Researcher <br />
 **Description:** Compare posture data across demographics or professions.
 
@@ -229,7 +217,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 
 
-### UC-14 – Login & Authentication
+### UC-13 – Login & Authentication
 **Actor:** Suit User / Researcher / Administrator <br />
 **Description:** The user securely logs into the MotionSuit application to access personalized features, data, and permissions.
 
@@ -261,7 +249,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 
 
-### UC-15 – Generate Weekly Report
+### UC-14 – Generate Weekly Report
 **Actor:** System and Suit User <br />
 **Description:** The system automatically generates a weekly summary report of posture performance and progress for each user.
 

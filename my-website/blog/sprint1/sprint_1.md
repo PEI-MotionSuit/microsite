@@ -27,14 +27,15 @@ In order to complete the first milestone of our project, it is expectable to con
 - Architecture and Design
 - Technology Stack
 - State of the Art
-- Microsite
+- Creat Microsite
 - Update all the documentation
+- Presentation Preparation
 
 | Expected     | Quantity |
 | ------------ | -------- |
-| Tasks        | 10        |
+| Tasks        | 11       |
 | Epics        | 1        |
-| Story Points | 55       |
+| Story Points | 60       |
 
 ## Sprint Backlog
 
@@ -44,13 +45,14 @@ In order to complete the first milestone of our project, it is expectable to con
 | Trail-2         | Functional Requirements     | Mariana Marques                                | Done  | 5            |
 | Trail-3         | Non-functional Requirements | Mariana Marques                                | Done  | 5            |
 | Trail-4         | Personas                    | All                                            | Done  | 5            |
-| Trail-5         | Use Cases                   | Mariana Marques e Beatriz Francisco            | Done  | 5            |
-| Trail-6         | User Stories                | Matilde Rodrigues e Mariana Marques            | Done  | 5            |
+| Trail-5         | Use Cases                   | Mariana Marques and Beatriz Francisco          | Done  | 5            |
+| Trail-6         | User Stories                | Matilde Rodrigues and Mariana Marques          | Done  | 5            |
 | Trail-7         | Architecture and design     | Marta Cruz                                     | Done  | 5            |
-| Trail-8         | Microsite                   | Catarina Ribeiro                               | Done  | 5            |
-| Trail-9         | UI Mockups                  | Marta Cruz e Catarina Ribeiro                  | Not Done  | 5            |
-| Trail-10        | Technologies                | All                                            | Not Done  | 5            |
+| Trail-8         | Creat Microsite             | Catarina Ribeiro                               | Done  | 5            |
+| Trail-9         | UI Mockups                  | Marta Cruz and Catarina Ribeiro                | Not Done  | 5        |
+| Trail-10        | Technologies                | All                                            | Not Done  | 5        |
 | Trail-11        | Update Documentation        | All                                            | Done  | 5            |
+| Trail-12        | Presentation Preparatiion   | Matilde Rodrigues, Beatriz Francisco and Catarina Ribeiro  | Done  | 5  |
 
 ### Task Status (Completed/Not Completed)
 
@@ -61,19 +63,22 @@ In order to complete the first milestone of our project, it is expectable to con
 - [x] Trail-5: Use Cases
 - [x] Trail-6: User Stories
 - [x] Trail-7: Architecture
-- [x] Trail-8: Microsite
+- [x] Trail-8: Creat Microsite
 - [ ] Trail-9: UI Mockups
 - [ ] Trail-10: Technologies
 - [x] Trail-11: Update Documentation
+- [x] Trail-12: Presentation Preparatiion
 
 ## Sprint Review
 
 | Concluded    | Quantity |
 | ------------ | -------- |
-| Tasks        | 8        |
+| Tasks        | 9        |
 | Epics        | 1        |
-| Story Points | 45       |
+| Story Points | 50       |
 
 ## Sprint Retrospective
 
 This sprint saw substantial completion of tasks including UI mockups and updating project documentation. However, not all mockups were finalized, as only a few were required at this stage to support ongoing development. The remaining mockups will be created in future sprints as the design evolves and additional features are defined. Deciding which technologies to use was also delayed due to limited time and the need to prioritize other critical development tasks. Moving forward, the team plans to dedicate more time to technologies and design updates in upcoming sprints to ensure all project materials remain complete and aligned with progress.
+
+<!-- truncate -->`

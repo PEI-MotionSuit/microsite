@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 # State of the Art
@@ -16,7 +16,7 @@ Overall, while many competitors offer specialized focus areas, like sports or po
 
 <br />
 
-|                    | DorsaVI | FlexiTrace | SmartPosture | SwordHealth | Vital Jacket | MotionSplit |
+|                    | DorsaVI | FlexiTrace | SmartPosture | SwordHealth | Vital Jacket | MotionSuit |
 |--------------------|---------|------------|--------------|-------------|--------------|-------------|
 | Wearable Sensors   | ✅      | ❌         | ❌           | ❌          | ✅           | ✅          |
 | Performance Analytics | ✅    | ✅         | ✅           | ✅          | ❌           | ✅          |
