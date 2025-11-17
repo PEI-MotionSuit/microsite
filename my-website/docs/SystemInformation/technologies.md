@@ -11,6 +11,8 @@ import jira from "@site/static/img/technologies/jira.png";
 import react from "@site/static/img/technologies/React.png";
 import typescript from "@site/static/img/technologies/typescript.png";
 import vite from "@site/static/img/technologies/vite.png";
+import tanStack from "@site/static/img/technologies/tanStack.png";
+import tailwind from "@site/static/img/technologies/tailwind_css.png";
 import fastapi from "@site/static/img/technologies/fastapi.png";
 import postgresql from "@site/static/img/technologies/Postgresql.png";
 import clickhouse from "@site/static/img/technologies/clickhouse.png";
@@ -32,6 +34,8 @@ This section lists the different technologies we use and how they are used.
 |<img src={react} width="60" height="60"/>| React 19 | Frontend framework |
 |<img src={typescript} width="60" height="60"/>| TypeScript | Type-safe development |
 |<img src={vite} width="60" height="60"/>| Vite | Build tool and dev server |
+|<img src={tanStack} width="60" height="60"/>| TanStack Query | Data synchronization |
+|<img src={tailwind} width="60" height="60"/>| Tailwind CSS v4 | Styling and design |
 |<img src={fastapi} width="60" height="60"/>| FastAPI | Backend API framework |
 |<img src={postgresql} width="60" height="60"/>| PostgreSQL | Relational database |
 |<img src={clickhouse} width="60" height="60"/>| Clickhouse | Time series databases |
