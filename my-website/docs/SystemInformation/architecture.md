@@ -73,6 +73,11 @@ Purpose: Handles data export and comparative reporting functionality
 - Data Formatter: Transforms data into required formats (PDF, CSV, JSON) with appropriate styling
 - Comparison Engine: Performs statistical comparisons between users and time periods
 - Batch Export Processor: Manages asynchronous export jobs with progress tracking
+
+#### <u>Sensor calibration Service</u>
+Purpose: Handles sensor calibration for each new user
+- Each new user, when first introduced to the system, will be prompted to perform a quick suit’s sensor calibration according to their preferences. This module will be responsible for collecting the raw data and storing the user’s “zeros” for later posture analysis.
+
   
 ## Raspberry Backend
 The Raspberry Pi serves as the computing hub that interfaces directly with wearable sensors, providing real-time data acquisition and preprocessing. This edge layer ensures low-latency processing and operational resilience even during network interruptions.
@@ -104,4 +109,3 @@ Purpose: Provides real-time data streaming and protocol transformation for direc
 - Heartbeat Monitoring: Implements keep-alive mechanisms to detect and clean up stale connections
 - Quality-of-Service Tiers: Provides differentiated data streaming rates based on network conditions
 - Backpressure Handling: Manages data flow control when clients experience processing bottlenecks
-
