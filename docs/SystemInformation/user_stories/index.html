@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.9.1">
 <title data-rh="true">User Stories | MotionSuit</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://motionsuit.github.io/microsite/img/logo.svg"><meta data-rh="true" name="twitter:image" content="https://motionsuit.github.io/microsite/img/logo.svg"><meta data-rh="true" property="og:url" content="https://motionsuit.github.io/microsite/docs/SystemInformation/user_stories"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="User Stories | MotionSuit"><meta data-rh="true" name="description" content="The main actors are the suit users, the administrators and the researchers so we divided the user stories by the actors and each user story will have it&#x27;s acceptance criteria."><meta data-rh="true" property="og:description" content="The main actors are the suit users, the administrators and the researchers so we divided the user stories by the actors and each user story will have it&#x27;s acceptance criteria."><link data-rh="true" rel="icon" href="/microsite/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://motionsuit.github.io/microsite/docs/SystemInformation/user_stories"><link data-rh="true" rel="alternate" href="https://motionsuit.github.io/microsite/docs/SystemInformation/user_stories" hreflang="en"><link data-rh="true" rel="alternate" href="https://motionsuit.github.io/microsite/docs/SystemInformation/user_stories" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"System Information","item":"https://motionsuit.github.io/microsite/docs/category/system-information"},{"@type":"ListItem","position":2,"name":"User Stories","item":"https://motionsuit.github.io/microsite/docs/SystemInformation/user_stories"}]}</script><link rel="alternate" type="application/rss+xml" href="/microsite/blog/rss.xml" title="MotionSuit RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/microsite/blog/atom.xml" title="MotionSuit Atom Feed"><link rel="stylesheet" href="/microsite/assets/css/styles.c876c79f.css">
-<script src="/microsite/assets/js/runtime~main.dc937b8a.js" defer="defer"></script>
+<script src="/microsite/assets/js/runtime~main.1ef5ade4.js" defer="defer"></script>
 <script src="/microsite/assets/js/main.f759e4bb.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -37,29 +37,22 @@ b. Sound alert (optional) <br></li>
 <p><strong>Acceptance Criteria:</strong></p>
 <ol>
 <li>User must be logged in to the app</li>
-<li>The app must have a tab where the records of the user are kept - the app must keep the records per user</li>
-<li>The records tab must have graphics that show progress over time</li>
-<li>Charts must show: <br>
-a. Posture trend (weekly/monthly)<br>
-b. Time in risk postures per day<br>
-c. Percentage improvement over time<br>
-d. Period filters: 7 days, 30 days, 3 months<br>
-e. Option to export data as PDF for sharing with healthcare professionals<br></li>
+<li>The app must have a tab where the records of the user are kept, the app must keep the records per user</li>
+<li>The dashboard displays a real-time 3D model that reproduces the user’s movements based on colected data.</li>
+<li>Option to export data: <br>
+a. Period filters: 7 days, 30 days, 3 months<br>
+b. Export data as PDF, CSV and JSON for sharing with healthcare professionals<br></li>
 </ol>
 <br>
 <p>-&gt; <u><em>US-3:</em></u> <strong>As a</strong> suit user, <strong>I want</strong> to check real time metrics <strong>so that</strong> I can see my results while I’m working.</p>
 <p><strong>Acceptance Criteria:</strong></p>
 <ol>
 <li>User must be logged in the app</li>
-<li>The app must have a tab with the records (and dashboards, in real time)</li>
+<li>The app must have a tab with the records (dashboard in real time)</li>
 <li>Real-time metrics: <br>
-a. Heart rate <br>
-b. Current posture angles. <br>
-c. Body temperature <br>
-d. Suit battery status <br></li>
-<li>Visual status indicators: <br>
-a. Green (normal), Yellow (warning), Red (risk) <br></li>
-<li>Automatic updates every 2 seconds</li>
+a. Current posture angles. <br>
+b. Body temperature <br></li>
+<li>Automatic updates in real-time</li>
 </ol>
 <br>
 <p>-&gt; <u><em>US-4:</em></u> <strong>As a</strong> suit user <strong>I want</strong> to customize my alerts <strong>so that</strong> I can adapt the system to my specific needs.</p>
@@ -104,7 +97,22 @@ a. &quot;Almost there&quot; alerts when close to achieving goals<br>
 b. Weekly progress summary reports</li>
 </ol>
 <br>
-<p>-&gt; <u><em>US-7:</em></u> <strong>As a</strong> suit user <strong>I want</strong> to earn rewards and recognition for achieving my posture goals <strong>so that</strong> I stay motivated and engaged with my posture improvement journey.</p>
+<p>-&gt; <u><em>US-7:</em></u> <strong>As a</strong> suit user <strong>I want</strong> to easily calibrate my suit <strong>so that</strong> I can ensure accurate measurements and reliable posture detection.</p>
+<p><strong>Acceptance Criteria:</strong></p>
+<ol>
+<li>Simple calibration initiation:<br>
+a. One-touch calibration start from mobile app<br>
+b. Clear visual instructions for calibration poses<br>
+c. Progress indicator during calibration process<br></li>
+<li>Calibration feedback and validation:<br>
+a. Real-time sensor data quality indicators<br>
+b. Success confirmation <br></li>
+<li>Calibration management:<br>
+a. Calibration history and timestamps<br>
+b. Automatic calibration reminders (suggested every 2 weeks)<br>
+c. Factory reset option for calibration data<br></li>
+</ol>
+<p>-&gt; <u><em>US-8:</em></u> <strong>As a</strong> suit user <strong>I want</strong> to earn rewards and recognition for achieving my posture goals <strong>so that</strong> I stay motivated and engaged with my posture improvement journey.</p>
 <p><strong>Acceptance Criteria:</strong></p>
 <ol>
 <li>Badge and achievement system:<br>
@@ -123,25 +131,8 @@ b. Special rewards for maintaining goals over 3, 6, 12 months<br>
 c. &quot;Posture Master&quot; status for exceptional long-term improvement</li>
 </ol>
 <br>
-<p>-&gt; <u><em>US-8:</em></u> <strong>As a</strong> suit user <strong>I want</strong> to easily calibrate my suit <strong>so that</strong> I can ensure accurate measurements and reliable posture detection.</p>
-<p><strong>Acceptance Criteria:</strong></p>
-<ol>
-<li>Simple calibration initiation:<br>
-a. One-touch calibration start from mobile app<br>
-b. Clear visual instructions for calibration poses<br>
-c. Progress indicator during calibration process<br></li>
-<li>Calibration feedback and validation:<br>
-a. Real-time sensor data quality indicators<br>
-b. Success confirmation <br></li>
-<li>Calibration management:<br>
-a. Calibration history and timestamps<br>
-b. Automatic calibration reminders (suggested every 2 weeks)<br>
-c. Factory reset option for calibration data<br></li>
-</ol>
-<br>
-<br>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="administration">Administration<a href="#administration" class="hash-link" aria-label="Direct link to Administration" title="Direct link to Administration" translate="no">​</a></h3>
-<p>-&gt; <u><em>US-10:</em></u> <strong>As an</strong> administrator <strong>I want</strong> to have access to all the information <strong>so that</strong> I can help and monitor the students&#x27; work.</p>
+<p>-&gt; <u><em>US-9:</em></u> <strong>As an</strong> administrator <strong>I want</strong> to have access to all the information <strong>so that</strong> I can help and monitor the students&#x27; work.</p>
 <p><strong>Acceptance Criteria:</strong></p>
 <ol>
 <li>Full access to GitHub organization (all repositories)</li>
@@ -151,40 +142,34 @@ c. Factory reset option for calibration data<br></li>
 <li>Ability to reset passwords and manage accounts</li>
 </ol>
 <br>
-<p>-&gt; <u><em>US-11:</em></u> <strong>As an</strong> administrator <strong>I want</strong> to manage user accounts so that I can control access and provide support.</p>
+<p>-&gt; <u><em>US-10:</em></u> <strong>As an</strong> administrator <strong>I want</strong> to manage user accounts so that I can control access and provide support.</p>
 <p><strong>Acceptance Criteria:</strong></p>
 <ol>
-<li>Create, edit, and deactivate user accounts</li>
-<li>Assign different profiles (user/researcher/admin)</li>
+<li>Edit and deactivate user accounts</li>
+<li>Approve and reject researchers</li>
 <li>Password reset when needed</li>
 <li>View usage statistics per user</li>
 </ol>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="research">Research<a href="#research" class="hash-link" aria-label="Direct link to Research" title="Direct link to Research" translate="no">​</a></h3>
-<p>-&gt; <u><em>US-12:</em></u> <strong>As a</strong> researcher <strong>I want</strong> to analyze the captured data <strong>so that</strong> I can identify postural deviations and abnormal patterns.</p>
+<p>-&gt; <u><em>US-11:</em></u> <strong>As a</strong> researcher <strong>I want</strong> to analyze the captured data <strong>so that</strong> I can identify postural deviations and abnormal patterns.</p>
 <p><strong>Acceptance Criteria:</strong></p>
 <ol>
-<li>Read-only access to complete database</li>
+<li>Read-only access to the information of users who have authorized it</li>
 <li>Advanced query and filtering tools</li>
 <li>Data export in formats:<br>
 a. CSV for statistical analysis<br>
-b. JSON for additional processing<br></li>
-<li>Ability to correlate multiple variables:<br>
-a. Posture vs. time of day<br>
-b. Fatigue vs. postural quality<br>
-c. Temperature vs. physical activity</li>
+b. JSON for additional processing<br>
+c. PDF for better visual <br></li>
 </ol>
 <br>
-<p>-&gt; <u><em>US-13:</em></u> <strong>As a</strong> researcher <strong>I want</strong> to compare data between different user groups <strong>so that</strong> I can identify demographic and occupational patterns.</p>
+<p>-&gt; <u><em>US-12:</em></u> <strong>As a</strong> researcher <strong>I want</strong> to compare data between different user groups <strong>so that</strong> I can identify demographic and occupational patterns.</p>
 <p><strong>Acceptance Criteria:</strong></p>
 <ol>
 <li>Group users by:<br>
 a. Profession (factory/construction/office etc)<br>
-b. Age and gender<br>
-c. Injury history<br></li>
-<li>Comparative statistical analysis between groups</li>
-<li>Visualization of significant differences</li>
-<li>Automatic comparison reports</li>
+b. Age and gender<br></li>
+<li>Export the data of the user group.</li>
 </ol></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/microsite/docs/SystemInformation/personas"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Personas</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/microsite/docs/SystemInformation/use_cases"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Use Cases</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#suit-users" class="table-of-contents__link toc-highlight">Suit Users</a></li><li><a href="#administration" class="table-of-contents__link toc-highlight">Administration</a></li><li><a href="#research" class="table-of-contents__link toc-highlight">Research</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="margin-bottom--sm"><a href="https://github.com/PEI-MotionSuit" rel="noopener noreferrer" class="footerLogoLink_BH7S"><img src="/microsite/img/icons8-github-96.png" alt="FlexiGather repository on GitHub" class="footer__logo themedComponent_mlkZ themedComponent--light_NVdE" width="40" height="40"><img src="/microsite/img/icons8-github-96.png" alt="FlexiGather repository on GitHub" class="footer__logo themedComponent_mlkZ themedComponent--dark_xIcU" width="40" height="40"></a></div><div class="footer__copyright"><a href="docs/about_us">Group 2,</a> <a href="https://www.ua.pt/"> University of Aveiro</a> <br> Copyright © 2025 MotionSuit, Projeto de Engenharia Informática</div></div></div></footer></div>
 </body>
 </html>
