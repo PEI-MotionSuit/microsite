@@ -31,14 +31,11 @@ The main actors are the **suit users**, the **administrators** and the **researc
 
 **Acceptance Criteria:**
 1. User must be logged in to the app
-2. The app must have a tab where the records of the user are kept - the app must keep the records per user
-3. The records tab must have graphics that show progress over time
-4. Charts must show: <br />
-    a. Posture trend (weekly/monthly)<br />
-    b. Time in risk postures per day<br />
-    c. Percentage improvement over time<br />
-    d. Period filters: 7 days, 30 days, 3 months<br />
-    e. Option to export data as PDF for sharing with healthcare professionals<br />
+2. The app must have a tab where the records of the user are kept, the app must keep the records per user
+3. The dashboard displays a real-time 3D model that reproduces the user’s movements based on colected data.
+4. Option to export data: <br />
+    a. Period filters: 7 days, 30 days, 3 months<br />
+    b. Export data as PDF, CSV and JSON for sharing with healthcare professionals<br />
 
 
 <br />
@@ -47,15 +44,11 @@ The main actors are the **suit users**, the **administrators** and the **researc
 
 **Acceptance Criteria:**
 1. User must be logged in the app
-2. The app must have a tab with the records (and dashboards, in real time)
+2. The app must have a tab with the records (dashboard in real time)
 3. Real-time metrics: <br />
-    a. Heart rate <br />
-    b. Current posture angles. <br />
-    c. Body temperature <br />
-    d. Suit battery status <br />
-4. Visual status indicators: <br />
-    a. Green (normal), Yellow (warning), Red (risk) <br />
-5. Automatic updates every 2 seconds
+    a. Current posture angles. <br />
+    b. Body temperature <br />
+4. Automatic updates in real-time
 
 
 <br />
@@ -108,7 +101,22 @@ The main actors are the **suit users**, the **administrators** and the **researc
 
 <br />
 
--> <u>*US-7:*</u> **As a** suit user **I want** to earn rewards and recognition for achieving my posture goals **so that** I stay motivated and engaged with my posture improvement journey.
+-> <u>*US-7:*</u> **As a** suit user **I want** to easily calibrate my suit **so that** I can ensure accurate measurements and reliable posture detection.
+
+**Acceptance Criteria:**
+1. Simple calibration initiation:<br />
+    a. One-touch calibration start from mobile app<br />
+    b. Clear visual instructions for calibration poses<br />
+    c. Progress indicator during calibration process<br />
+2. Calibration feedback and validation:<br />
+    a. Real-time sensor data quality indicators<br />
+    b. Success confirmation <br />
+3. Calibration management:<br />
+    a. Calibration history and timestamps<br />
+    b. Automatic calibration reminders (suggested every 2 weeks)<br />
+    c. Factory reset option for calibration data<br />
+
+-> <u>*US-8:*</u> **As a** suit user **I want** to earn rewards and recognition for achieving my posture goals **so that** I stay motivated and engaged with my posture improvement journey.
 
 **Acceptance Criteria:**
 1. Badge and achievement system:<br />
@@ -129,31 +137,9 @@ The main actors are the **suit users**, the **administrators** and the **researc
 
 <br />
 
--> <u>*US-8:*</u> **As a** suit user **I want** to easily calibrate my suit **so that** I can ensure accurate measurements and reliable posture detection.
-
-**Acceptance Criteria:**
-1. Simple calibration initiation:<br />
-    a. One-touch calibration start from mobile app<br />
-    b. Clear visual instructions for calibration poses<br />
-    c. Progress indicator during calibration process<br />
-2. Calibration feedback and validation:<br />
-    a. Real-time sensor data quality indicators<br />
-    b. Success confirmation <br />
-3. Calibration management:<br />
-    a. Calibration history and timestamps<br />
-    b. Automatic calibration reminders (suggested every 2 weeks)<br />
-    c. Factory reset option for calibration data<br />
-
-
-<br />
-
-
-
-<br />
-
 ### Administration
 
--> <u>*US-10:*</u> **As an** administrator **I want** to have access to all the information **so that** I can help and monitor the students' work.
+-> <u>*US-9:*</u> **As an** administrator **I want** to have access to all the information **so that** I can help and monitor the students' work.
 
 **Acceptance Criteria:**
 1. Full access to GitHub organization (all repositories)
@@ -165,11 +151,11 @@ The main actors are the **suit users**, the **administrators** and the **researc
 
 <br />
 
--> <u>*US-11:*</u> **As an** administrator **I want** to manage user accounts so that I can control access and provide support.
+-> <u>*US-10:*</u> **As an** administrator **I want** to manage user accounts so that I can control access and provide support.
 
 **Acceptance Criteria:**
-1. Create, edit, and deactivate user accounts
-2. Assign different profiles (user/researcher/admin)
+1. Edit and deactivate user accounts
+2. Approve and reject researchers
 3. Password reset when needed
 4. View usage statistics per user
 
@@ -179,32 +165,26 @@ The main actors are the **suit users**, the **administrators** and the **researc
 
 ### Research
 
--> <u>*US-12:*</u> **As a** researcher **I want** to analyze the captured data **so that** I can identify postural deviations and abnormal patterns.
+-> <u>*US-11:*</u> **As a** researcher **I want** to analyze the captured data **so that** I can identify postural deviations and abnormal patterns.
 
 **Acceptance Criteria:**
-1. Read-only access to complete database
+1. Read-only access to the information of users who have authorized it 
 2. Advanced query and filtering tools
 3. Data export in formats:<br />
     a. CSV for statistical analysis<br />
     b. JSON for additional processing<br />
-4. Ability to correlate multiple variables:<br />
-    a. Posture vs. time of day<br />
-    b. Fatigue vs. postural quality<br />
-    c. Temperature vs. physical activity
+    c. PDF for better visual <br />
 
 
 <br />
 
--> <u>*US-13:*</u> **As a** researcher **I want** to compare data between different user groups **so that** I can identify demographic and occupational patterns.
+-> <u>*US-12:*</u> **As a** researcher **I want** to compare data between different user groups **so that** I can identify demographic and occupational patterns.
 
 **Acceptance Criteria:**
 1. Group users by:<br />
     a. Profession (factory/construction/office etc)<br />
     b. Age and gender<br />
-    c. Injury history<br />
-2. Comparative statistical analysis between groups
-3. Visualization of significant differences
-4. Automatic comparison reports
+2. Export the data of the user group.
 
 
 <!-- r -->

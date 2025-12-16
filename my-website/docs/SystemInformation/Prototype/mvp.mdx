@@ -1,0 +1,93 @@
+---
+sidebar_position: 2
+---
+
+# Minimal Viable Product (MVP)
+
+## All current interfaces
+
+### Access Interface
+
+import React from 'react';
+import ImageCarousel from '@site/src/components/ImageCarousel';
+import Page1 from '@site/static/img/mvp/login.png';
+import Page2 from '@site/static/img/mvp/registo_user.png';
+import Page3 from '@site/static/img/mvp/registo_researcher.png';
+import Page4 from '@site/static/img/mvp/user_dashboard.png';
+import Page5 from '@site/static/img/mvp/user_profile.png';
+import Page6 from '@site/static/img/mvp/user_edit_profile.png';
+import Page7 from '@site/static/img/mvp/user_sessions.png';
+import Page8 from '@site/static/img/mvp/user_export_sessions.png';
+import Page9 from '@site/static/img/mvp/user_export_data1.png';
+import Page10 from '@site/static/img/mvp/user_export_data2.png';
+import Page11 from '@site/static/img/mvp/admin_dashboard.png';
+import Page12 from '@site/static/img/mvp/admin_actions.png';
+import Page13 from '@site/static/img/mvp/admin_user_overview.png';
+import Page14 from '@site/static/img/mvp/admin_user_history.png';
+import Page15 from '@site/static/img/mvp/admin_researcher_overview.png';
+import Page16 from '@site/static/img/mvp/admin_requests.png';
+import Page17 from '@site/static/img/mvp/admin_system_stats.png';
+import Page18 from '@site/static/img/mvp/researcher_dashboard.png';
+import Page19 from '@site/static/img/mvp/researcher_participants.png';
+import Page20 from '@site/static/img/mvp/researcher_user_overview.png';
+import Page21 from '@site/static/img/mvp/researcher_user_history.png';
+import Page22 from '@site/static/img/mvp/researcher_filters.png';
+import SimulationVideo from '@site/static/img/mvp/sensor_simulation.mp4';
+import RealTimeVideo from '@site/static/img/mvp/real_time_sensors.mp4';
+
+
+
+<ImageCarousel items={[
+    { url: Page1, caption: 'Login for all users' },
+    { url: Page2, caption: 'Registration for Suit Users' },
+    { url: Page3, caption: 'Registration for Researchers' },
+]} />
+
+
+### Suit user interfaces
+
+<ImageCarousel items={[
+    { url: Page4, caption: 'Dashboard with 3D Modal' },
+    { url: Page5, caption: 'User Profile: where a seesion must be iniciated' },
+    { url: Page6, caption: 'Update user profile' },
+    { url: Page7, caption: "User's session history" },
+    { url: Page8, caption: 'Export data collected in a session' },
+    { url: Page9, caption: 'Export filtered data' },
+    { url: Page10, caption: 'Showing it actualy works' },
+]} />
+
+### Suit User Dashboard with simulated data
+
+<video controls muted width="100%">
+  <source src={SimulationVideo} type="video/mp4" />
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+### Suit User Dashboard with real-time data
+
+<video controls muted width="100%">
+  <source src={RealTimeVideo} type="video/mp4" />
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+### Admin interfaces
+
+<ImageCarousel items={[
+    { url: Page11, caption: 'Dashboard for user management' },
+    { url: Page12, caption: "Admin actions on other users' accounts" },
+    { url: Page13, caption: 'Suit User profile information' },
+    { url: Page14, caption: "Suit User sessions overview" },
+    { url: Page15, caption: 'Researcher profile informations' },
+    { url: Page16, caption: 'Researcher requests for approval' },
+    { url: Page17, caption: 'Overall system stats' },
+]} />
+
+### Researcher interfaces
+
+<ImageCarousel items={[
+    { url: Page18, caption: 'Dashboard for researcher overall data' },
+    { url: Page19, caption: "Dashboard to show users that have authorized the analysis of their data" },
+    { url: Page20, caption: 'Suit User profile information' },
+    { url: Page21, caption: "Suit User sessions overview" },
+    { url: Page22, caption: 'User filtering' },
+]} />

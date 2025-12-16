@@ -11,7 +11,7 @@ title: Sprint 1
 
 **Scrum Master**: Mariana Marques
 
-**Product Owner**: IETA
+**Product Owner**: IEETA
 
 **Developers**: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro
 ## Sprint Goal
@@ -33,48 +33,46 @@ In order to complete the first milestone of our project, it is expectable to con
 
 | Expected     | Quantity |
 | ------------ | -------- |
-| Tasks        | 11       |
-| Epics        | 1        |
+| Tasks        | 12       |
 | Story Points | 60       |
 
 ## Sprint Backlog
 
-| Task (Trail-\*) | Description                 | Developer                                      | State | Story Points |
+| Task (KAN-\*) | Description                 | Developer                                      | State | Story Points |
 | --------------- | --------------------------- | ---------------------------------------------- | ----- | ------------ |
-| Trail-1         | State of the Art            | Beatriz Francisco                              | Done  | 5            |
-| Trail-2         | Functional Requirements     | Mariana Marques                                | Done  | 5            |
-| Trail-3         | Non-functional Requirements | Mariana Marques                                | Done  | 5            |
-| Trail-4         | Personas                    | All                                            | Done  | 5            |
-| Trail-5         | Use Cases                   | Mariana Marques and Beatriz Francisco          | Done  | 5            |
-| Trail-6         | User Stories                | Matilde Rodrigues and Mariana Marques          | Done  | 5            |
-| Trail-7         | Architecture and design     | Marta Cruz                                     | Done  | 5            |
-| Trail-8         | Creat Microsite             | Catarina Ribeiro                               | Done  | 5            |
-| Trail-9         | UI Mockups                  | Marta Cruz and Catarina Ribeiro                | Not Done  | 5        |
-| Trail-10        | Technologies                | All                                            | Not Done  | 5        |
-| Trail-11        | Update Documentation        | All                                            | Done  | 5            |
-| Trail-12        | Presentation Preparatiion   | Matilde Rodrigues, Beatriz Francisco and Catarina Ribeiro  | Done  | 5  |
+| KAN-1         | State of the Art            | Beatriz Francisco                              | Done  | 5            |
+| KAN-2         | Functional Requirements     | Mariana Marques                                | Done  | 5            |
+| KAN-3         | Non-functional Requirements | Mariana Marques                                | Done  | 5            |
+| KAN-4         | Personas                    | All                                            | Done  | 5            |
+| KAN-5         | Use Cases                   | Mariana Marques and Beatriz Francisco          | Done  | 5            |
+| KAN-6         | User Stories                | Matilde Rodrigues and Mariana Marques          | Done  | 5            |
+| KAN-7         | Architecture and design     | Marta Cruz                                     | Done  | 5            |
+| KAN-8         | Creat Microsite             | Catarina Ribeiro                               | Done  | 5            |
+| KAN-9         | UI Mockups                  | Marta Cruz and Catarina Ribeiro                | Not Done  | 5        |
+| KAN-10        | Technologies                | All                                            | Not Done  | 5        |
+| KAN-11        | Update Documentation        | All                                            | Done  | 5            |
+| KAN-12        | Presentation Preparatiion   | Matilde Rodrigues, Beatriz Francisco and Catarina Ribeiro  | Done  | 5  |
 
 ### Task Status (Completed/Not Completed)
 
-- [x] Trail-1: State of the Art
-- [x] Trail-2: Functional Requirements
-- [x] Trail-3: Non-functional Requirements
-- [x] Trail-4: Personas and 
-- [x] Trail-5: Use Cases
-- [x] Trail-6: User Stories
-- [x] Trail-7: Architecture
-- [x] Trail-8: Creat Microsite
-- [ ] Trail-9: UI Mockups
-- [ ] Trail-10: Technologies
-- [x] Trail-11: Update Documentation
-- [x] Trail-12: Presentation Preparatiion
+- [x] KAN-1: State of the Art
+- [x] KAN-2: Functional Requirements
+- [x] KAN-3: Non-functional Requirements
+- [x] KAN-4: Personas and 
+- [x] KAN-5: Use Cases
+- [x] KAN-6: User Stories
+- [x] KAN-7: Architecture
+- [x] KAN-8: Creat Microsite
+- [ ] KAN-9: UI Mockups
+- [ ] KAN-10: Technologies
+- [x] KAN-11: Update Documentation
+- [x] KAN-12: Presentation Preparatiion
 
 ## Sprint Review
 
 | Concluded    | Quantity |
 | ------------ | -------- |
-| Tasks        | 9        |
-| Epics        | 1        |
+| Tasks        | 10       |
 | Story Points | 50       |
 
 ## Sprint Retrospective

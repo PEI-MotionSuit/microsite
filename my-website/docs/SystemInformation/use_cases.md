@@ -16,8 +16,8 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Description:** The user receives real-time alerts when adopting a harmful posture.
 
 **Preconditions:**
-- Suit connected and calibrated
-- User logged into the app
+- Suit connected and calibrated.
+- User logged into the app.
   
 **Main Flow:**
 1. User wears MotionSuit.
@@ -35,18 +35,16 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 ### UC-2 – View Historical Statistics
 **Actor:** Suit User <br />
-**Description:** User views posture trends and improvements.
+**Description:** User views statistics on the dashboard.
 
 **Preconditions:** User logged in.
 
 **Main Flow:**
-1. Open “Statistics” tab.
-2. System loads charts:
-    - Weekly/monthly posture trend
-    - Time in risky postures per day
-    - % improvement
-3. User filters period (7 days / 30 days / 3 months).
-4. Optional: Export report as PDF.
+1. Open user dashboard.
+2. The dashboard displays a real-time 3D model that reproduces the user’s movements based on colected data.
+3. Optional export data:
+    - Period filters: 7 days, 30 days, 3 months
+    - Export data as PDF, CSV and JSON for sharing with healthcare professionals
 
 **Postconditions:** Data visualized and optionally saved.
 
@@ -59,12 +57,10 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Main Flow:**
 1. User accesses Dashboard.
 2. System displays:
-    - Heart rate
     - Posture angles
     - Body temperature
-    - Suit battery
-3. Color indicators show normal/warning/risk.
-4. Data updates every 2s.
+3. Color indicators show normal/warning/risk in the posture angles.
+4. Automatic updates in real-time.
 
 **Postconditions:** Continuous feedback provided.
 
@@ -123,7 +119,23 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 
 
-### UC-7 – Earn Rewards and Achievements
+### UC-7 – Calibrate the Suit
+**Actor:** Suit User <br />
+**Description:** Ensure suit sensors measure correctly.
+
+**Main Flow:**
+1. Start Calibration in app.
+2. Follow visual step-by-step poses.
+3. System validates sensor data quality.
+4. Displays “Calibration successful.”
+
+**Alternative:** Retry or factory reset if failed.
+
+**Postconditions:** Calibration profile stored with timestamp.
+
+
+
+### UC-8 – Earn Rewards and Achievements
 **Actor:** Suit User <br />
 **Description:** User receives recognition for consistent improvement.
 
@@ -140,22 +152,6 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 
 
-### UC-8 – Calibrate the Suit
-**Actor:** Suit User <br />
-**Description:** Ensure suit sensors measure correctly.
-
-**Main Flow:**
-1. Start Calibration in app.
-2. Follow visual step-by-step poses.
-3. System validates sensor data quality.
-4. Displays “Calibration successful.”
-
-**Alternative:** Retry or factory reset if failed.
-
-**Postconditions:** Calibration profile stored with timestamp.
-
-
-
 ### UC-9 – Access Full System Information
 **Actor:** Administrator <br />
 **Description:** View all project and user data for monitoring.
@@ -166,7 +162,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
     - GitHub organization & repos
     - Project documentation
     - User activity logs
-3. Can reset passwords or assist users
+3. Can reset passwords or assist users.
 
 **Postconditions:** Administrator actions recorded in audit log.
 
@@ -174,15 +170,17 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 ### UC-10 – Manage User Accounts
 **Actor:** Administrator <br />
-**Description:** Create, modify, or deactivate accounts.
+**Description:** Modify or deactivate accounts.
 
 **Main Flow:**
 1. Open User Management panel.
-2. Add/edit/deactivate user profiles.
-3. Assign roles (user/researcher/Administrator).
-4. Reset passwords if required
+2. Edit/deactivate user profiles.
+3. Approve and reject researchers.
+4. Reset passwords if required.
+5. View usage statistics per user.
 
 **Postconditions:** Account changes saved in system database.
+
 
 
 ### UC-11 – Analyze Captured Data
@@ -190,13 +188,10 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Description:** Investigate postural deviations and patterns.
 
 **Main Flow:**
-1. Researcher logs into analytics dashboard.
-2. Selects dataset (time range / participants).
-3. Applies filters:
-    - Posture vs. time of day
-    - Fatigue vs. posture quality
-    - Temperature vs. physical activity
-4. Exports results (CSV / JSON)
+1. Logs into researcher dashboard.
+2. View general dashboard informations.
+3. Accesses the information of users who authorize it.
+4. Exports the data collected from users. (CSV / JSON / PDF)
 
 **Postconditions:** Data prepared for scientific analysis.
 
@@ -207,13 +202,12 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Description:** Compare posture data across demographics or professions.
 
 **Main Flow:**
-1. Select comparison parameters:
-    - Profession, age, gender, injury history
-2. System aggregates and contrasts datasets
-3. Generates visual charts highlighting significant differences.
-4. Exports automatic comparison report
+1. Goes to the participants tab.
+1. Selects comparison parameters:
+    - Profession, age and gender.
+2. Exports the data of the user group.
 
-**Postconditions:** Group-based analysis stored or exported.
+**Postconditions:** Group-based data is stored or exported for analysis.
 
 
 
@@ -228,10 +222,12 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Main Flow:**
 1. User opens the MotionSuit app or web dashboard.
 2. System displays the login screen.
-3. User enters credentials (email/username and password).
+3. User enters credentials (email and password).
 4. System validates the credentials in the database.
 5. If authentication succeeds:
-    - The system loads the appropriate dashboard based on user role (User / Researcher / Administrator).
+    - The system loads the appropriate dashboard based on user role (User / Researcher).
+    - There is only one Admin and it is already created.
+    - If the user is a researcher, they will need Admin approval to enter the app.
 6. Session token is generated and stored securely for the current session.
 
 
@@ -245,7 +241,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 - Session audit entry logged in system.
 
 **Special Requirements:**
-- Passwords must be encrypted 
+- Passwords must be encrypted.
 
 
 

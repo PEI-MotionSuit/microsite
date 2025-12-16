@@ -11,7 +11,7 @@ title: Sprint 2
 
 **Scrum Master**: Marta Cruz
 
-**Product Owner**: IETA
+**Product Owner**: IEETA
 
 **Developers**: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro
 
@@ -24,44 +24,42 @@ In this sprint, we aimed to finish all the tasks that were not possible to compl
 - Setup all Frontend
 - Update Microsite
 - Update all the documentation
-- Presentation Second Preparatiion
+- Preparation for Second Presentation
 
 | Expected     | Quantity |
 | ------------ | -------- |
-| Tasks        | 7       |
-| Epics        | 1        |
+| Tasks        | 8        |
 | Story Points | 40       |
 
 ## Sprint Backlog
 
-| Task (Trail-\*) | Description                 | Developer                                      | State | Story Points |
+| Task (KAN-\*) | Description                 | Developer                                      | State | Story Points |
 | --------------- | --------------------------- | ---------------------------------------------- | ----- | ------------ |
-| Trail-9         | UI Mockups                  | Catarina Ribeiro                               | Done  | 5            |
-| Trail-10        | Technologies                | Marta Cruz                                     | Done  | 5            |
-| Trail-11        | Update Documentation        | All                                            | Done  | 5            |
-| Trail-13        | Schemas and Models for all Databases | Marta Cruz and Mariana Marques        | Done  | 5            |
-| Trail-14        | Script to generate sensor data | Beatriz Francisco and Matilde Rodrigues     | Done  | 5            |
-| Trail-15        | Setup all Frontend          | Mariana Marques and Catarina Ribeiro           | Done  | 5            |
-| Trail-16        | Update Microsite            | Catarina Ribeiro                               | Done  | 5            |
-| Trail-17        | Presentation Second Preparatiion | Matilde Rodrigues and Beatriz Francisco   | Done  | 5            |
+| KAN-9         | UI Mockups                  | Catarina Ribeiro                               | Done  | 5            |
+| KAN-10        | Technologies                | Marta Cruz                                     | Done  | 5            |
+| KAN-11        | Update Documentation        | All                                            | Done  | 5            |
+| KAN-13        | Schemas and Models for all Databases | Marta Cruz and Mariana Marques        | Done  | 5            |
+| KAN-14        | Script to generate sensor data | Beatriz Francisco and Matilde Rodrigues     | Done  | 5            |
+| KAN-15        | Setup all Frontend          | Mariana Marques and Catarina Ribeiro           | Done  | 5            |
+| KAN-16        | Update Microsite            | Catarina Ribeiro                               | Done  | 5            |
+| KAN-17        | Preparation for Second Presentation | Matilde Rodrigues and Beatriz Francisco   | Done  | 5            |
 
 ### Task Status (Completed/Not Completed)
 
-- [x] Trail-9: UI Mockups
-- [x] Trail-10: Technologies
-- [x] Trail-11: Update Documentation
-- [x] Trail-13: Schemas and Models for all Databases
-- [x] Trail-14: Script to generate sensor data
-- [x] Trail-15: Setup all Frontend
-- [x] Trail-16: Update Microsite
-- [x] Trail-17: Presentation Second Preparatiion
+- [x] KAN-9: UI Mockups
+- [x] KAN-10: Technologies
+- [x] KAN-11: Update Documentation
+- [x] KAN-13: Schemas and Models for all Databases
+- [x] KAN-14: Script to generate sensor data
+- [x] KAN-15: Setup all Frontend
+- [x] KAN-16: Update Microsite
+- [x] KAN-17: Preparation for Second Presentation
 
 ## Sprint Review
 
 | Concluded    | Quantity |
 | ------------ | -------- |
-| Tasks        | 7        |
-| Epics        | 1        |
+| Tasks        | 8        |
 | Story Points | 40       |
 
 ## Sprint Retrospective
