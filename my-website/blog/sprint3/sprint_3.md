@@ -15,7 +15,7 @@ title: Sprint 3
 
 **Developers**: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro
 
-In this spriny, we aimed to finish all tasks related to the MVP for the milestone 3 and also an extra task that was not planned for this semester. 
+In this sprint, we aimed to finish all tasks related to the MVP for the milestone 3 and also an extra task that was not planned for this semester. 
 
 - Setup all four databases
 - Complete backend API implementation
@@ -40,7 +40,7 @@ In this spriny, we aimed to finish all tasks related to the MVP for the mileston
 | KAN-20        | Full Frontend-Backend API integration| All                                   | Done  | 5            |
 | KAN-21        | 3D Avatar & Data Simulation on Frontend | Beatriz Francisco                  | Done  | 5            |
 | KAN-22        | Live Sensor Integration & Real-time Visualization | Marta Cruz Francisco                           | Done  | 5            |
-| KAN-23        | Setup LaTeX Report         | Matilde Rodriguesm                              | Done  | 5            |
+| KAN-23        | Setup LaTeX Report         | Matilde Rodrigues                              | Done  | 5            |
 | KAN-24        | Preparation for Third Presentation | All                                     | Done  | 5            |
 | KAN-16        | Update Microsite            | Catarina Ribeiro                               | Done  | 5            |
 
