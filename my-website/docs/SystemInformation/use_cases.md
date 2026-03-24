@@ -24,7 +24,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 2. Suit streams motion data to the app (`<100ms` latency).
 3. System detects an incorrect posture:
     - Exceeds joint safety limits, or
-    - Maintained for `>30s`, or
+    - Maintained for `>15s`, or
     - Matches a risk pattern.
 4. App sends chosen alert (vibration, sound, or notification).
 5. User corrects posture; alert stops.
@@ -43,8 +43,8 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 1. Open user dashboard.
 2. The dashboard displays a real-time 3D model that reproduces the user’s movements based on colected data.
 3. Optional export data:
-    - Period filters: 7 days, 30 days, 3 months
-    - Export data as PDF, CSV and JSON for sharing with healthcare professionals
+    - Period filters: 7 days, 30 days, 3 months.
+    - Export data as PDF, CSV and JSON for sharing with healthcare professionals.
 
 **Postconditions:** Data visualized and optionally saved.
 
@@ -57,7 +57,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Main Flow:**
 1. User accesses Dashboard.
 2. System displays:
-    - Posture angles
+    - REBA/ROSA score
     - Body temperature
 3. Color indicators show normal/warning/risk in the posture angles.
 4. Automatic updates in real-time.
@@ -72,10 +72,8 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Main Flow:**
 1. Open Alert Settings.
 2. Choose:
-    - Sensitivity (low/med/high)
     - Notification type
     - Quiet hours
-    - Posture thresholds
 3. Save preferences.
 
 **Postconditions:** Personalized alert rules active.
@@ -92,8 +90,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
     - Type (max risk-time, min good-posture, etc.)
     - Difficulty level
     - Duration (daily/weekly/custom)
-3. System validates realism (warns if too ambitious).
-4. Goal saved and tracking begins.
+3. Goal saved and tracking begins.
 
 **Postconditions:** New goal recorded in profile.
 
@@ -107,7 +104,6 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 1. Access Goal Progress page.
 2. See:
     - Progress bars
-    - Color indicators (Red/Yellow/Green)
     - Countdown timers
     - Streak counters
 3. App sends motivational notifications:
@@ -145,8 +141,8 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
     - Assigns badges (“Posture Pioneer”, “Risk Reducer”, etc.)
     - Adds points and levels
 3. If streak milestones achieved:
-    - Bronze/Silver/Gold/Platinum tiers
-    - Animated confetti or success message shown
+    - Levels (level 1, 2,3, etc.)
+    - Success message/alert shown
 
 **Postconditions:** Achievements saved in user profile.
 
@@ -176,8 +172,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 1. Open User Management panel.
 2. Edit/deactivate user profiles.
 3. Approve and reject researchers.
-4. Reset passwords if required.
-5. View usage statistics per user.
+4. View usage statistics per user.
 
 **Postconditions:** Account changes saved in system database.
 
@@ -188,10 +183,12 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Description:** Investigate postural deviations and patterns.
 
 **Main Flow:**
-1. Logs into researcher dashboard.
-2. View general dashboard informations.
-3. Accesses the information of users who authorize it.
-4. Exports the data collected from users. (CSV / JSON / PDF)
+1. Logs into analytics dashboard.
+2. Selects dataset (time range / participants).
+3. Applies filters:
+    - Posture vs. time of day
+    - Temperature vs. physical activity
+4. Exports results (CSV / JSON)
 
 **Postconditions:** Data prepared for scientific analysis.
 
@@ -202,12 +199,13 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Description:** Compare posture data across demographics or professions.
 
 **Main Flow:**
-1. Goes to the participants tab.
 1. Selects comparison parameters:
-    - Profession, age and gender.
-2. Exports the data of the user group.
+    - Profession, age, gender, injury history.
+2. System aggregates and contrasts datasets.
+3. Generates visual charts highlighting significant differences.
+4. Exports automatic comparison report.
 
-**Postconditions:** Group-based data is stored or exported for analysis.
+**Postconditions:** Group-based analysis stored or exported.
 
 
 

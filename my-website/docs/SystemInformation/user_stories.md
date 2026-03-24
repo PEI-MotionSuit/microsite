@@ -46,7 +46,7 @@ The main actors are the **suit users**, the **administrators** and the **researc
 1. User must be logged in the app
 2. The app must have a tab with the records (dashboard in real time)
 3. Real-time metrics: <br />
-    a. Current posture angles. <br />
+    a. Current REBA/ROSA score <br />
     b. Body temperature <br />
 4. Automatic updates in real-time
 
@@ -56,10 +56,8 @@ The main actors are the **suit users**, the **administrators** and the **researc
 -> <u>*US-4:*</u> **As a** suit user **I want** to customize my alerts **so that** I can adapt the system to my specific needs.
 
 **Acceptance Criteria:**
-1. Configure alert sensitivity (low/medium/high)
-2. Choose preferred notification type (vibration/sound/visual)
-3. Set quiet hours (e.g., during meetings)
-4. Customize thresholds for different posture types
+1. Choose preferred notification type (vibration/sound/visual)
+2. Set quiet hours (e.g., during meetings)
 
 
 <br />
@@ -74,10 +72,8 @@ The main actors are the **suit users**, the **administrators** and the **researc
 2. Goal customization options: <br />
     a. Adjustable difficulty levels (beginner/intermediate/advanced)<br />
     b. Time-bound goals (daily, weekly, or custom periods)<br />
-    c. Specific body part focus (neck, back, shoulders)<br />
 3. Goal validation: <br />
     a. Warning for overly ambitious targets<br />
-    b. Success probability indicator
 
 
 <br />
@@ -87,8 +83,7 @@ The main actors are the **suit users**, the **administrators** and the **researc
 **Acceptance Criteria:**
 1. Real-time progress indicators:<br />
     a. Progress bars showing daily/weekly goal completion<br />
-    b. Color-coded indicators (red/yellow/green) for each active goal<br />
-    c. Countdown timers for time-bound goals<br />
+    b. Countdown timers for time-bound goals<br />
 2. Streak tracking: <br />
     a. Consecutive days meeting daily goals<br />
     b. Longest streak history<br />
@@ -127,10 +122,8 @@ The main actors are the **suit users**, the **administrators** and the **researc
 2. Points and leveling system:<br />
     a. Points awarded for goal completion and streak maintenance<br />
     b. Level progression with visual status indicators<br />
-3. Visual celebrations:<br />
-    a. Animated confetti and success messages for goal completion<br />
-4. Reward tiers:<br />
-    a. Bronze/Silver/Gold/Platinum levels based on consistency<br />
+3. Reward tiers:<br />
+    a. Levels increasing based on consistency<br />
     b. Special rewards for maintaining goals over 3, 6, 12 months<br />
     c. "Posture Master" status for exceptional long-term improvement
 
