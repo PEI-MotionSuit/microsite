@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.9.1">
 <title data-rh="true">User Stories | MotionSuit</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://motionsuit.github.io/microsite/img/logo.svg"><meta data-rh="true" name="twitter:image" content="https://motionsuit.github.io/microsite/img/logo.svg"><meta data-rh="true" property="og:url" content="https://motionsuit.github.io/microsite/docs/SystemInformation/user_stories"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="User Stories | MotionSuit"><meta data-rh="true" name="description" content="The main actors are the suit users, the administrators and the researchers so we divided the user stories by the actors and each user story will have it&#x27;s acceptance criteria."><meta data-rh="true" property="og:description" content="The main actors are the suit users, the administrators and the researchers so we divided the user stories by the actors and each user story will have it&#x27;s acceptance criteria."><link data-rh="true" rel="icon" href="/microsite/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://motionsuit.github.io/microsite/docs/SystemInformation/user_stories"><link data-rh="true" rel="alternate" href="https://motionsuit.github.io/microsite/docs/SystemInformation/user_stories" hreflang="en"><link data-rh="true" rel="alternate" href="https://motionsuit.github.io/microsite/docs/SystemInformation/user_stories" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"System Information","item":"https://motionsuit.github.io/microsite/docs/category/system-information"},{"@type":"ListItem","position":2,"name":"User Stories","item":"https://motionsuit.github.io/microsite/docs/SystemInformation/user_stories"}]}</script><link rel="alternate" type="application/rss+xml" href="/microsite/blog/rss.xml" title="MotionSuit RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/microsite/blog/atom.xml" title="MotionSuit Atom Feed"><link rel="stylesheet" href="/microsite/assets/css/styles.c876c79f.css">
-<script src="/microsite/assets/js/runtime~main.8293b8a4.js" defer="defer"></script>
+<script src="/microsite/assets/js/runtime~main.1ee354c4.js" defer="defer"></script>
 <script src="/microsite/assets/js/main.60e9a0e7.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -50,7 +50,7 @@ b. Export data as PDF, CSV and JSON for sharing with healthcare professionals<br
 <li>User must be logged in the app</li>
 <li>The app must have a tab with the records (dashboard in real time)</li>
 <li>Real-time metrics: <br>
-a. Current posture angles. <br>
+a. Current REBA/ROSA score <br>
 b. Body temperature <br></li>
 <li>Automatic updates in real-time</li>
 </ol>
@@ -58,10 +58,8 @@ b. Body temperature <br></li>
 <p>-&gt; <u><em>US-4:</em></u> <strong>As a</strong> suit user <strong>I want</strong> to customize my alerts <strong>so that</strong> I can adapt the system to my specific needs.</p>
 <p><strong>Acceptance Criteria:</strong></p>
 <ol>
-<li>Configure alert sensitivity (low/medium/high)</li>
 <li>Choose preferred notification type (vibration/sound/visual)</li>
 <li>Set quiet hours (e.g., during meetings)</li>
-<li>Customize thresholds for different posture types</li>
 </ol>
 <br>
 <p>-&gt; <u><em>US-5:</em></u> <strong>As a</strong> suit user <strong>I want</strong> to set personalized posture improvement goals <strong>so that</strong> I can have clear targets to work towards and measure my progress.</p>
@@ -73,11 +71,9 @@ b. Target for &quot;good posture&quot; minutes (e.g. &quot;at least 4 hours of g
 c. Reduction goals for specific risk patterns (e.g. &quot;reduce forward neck bending by 20%&quot;)<br></li>
 <li>Goal customization options: <br>
 a. Adjustable difficulty levels (beginner/intermediate/advanced)<br>
-b. Time-bound goals (daily, weekly, or custom periods)<br>
-c. Specific body part focus (neck, back, shoulders)<br></li>
+b. Time-bound goals (daily, weekly, or custom periods)<br></li>
 <li>Goal validation: <br>
-a. Warning for overly ambitious targets<br>
-b. Success probability indicator</li>
+a. Warning for overly ambitious targets<br></li>
 </ol>
 <br>
 <p>-&gt; <u><em>US-6:</em></u> <strong>As a</strong> suit user <strong>I want</strong> to visually track my goal progress in real-time <strong>so that</strong> I can stay motivated and see how close I am to achieving my targets.</p>
@@ -85,8 +81,7 @@ b. Success probability indicator</li>
 <ol>
 <li>Real-time progress indicators:<br>
 a. Progress bars showing daily/weekly goal completion<br>
-b. Color-coded indicators (red/yellow/green) for each active goal<br>
-c. Countdown timers for time-bound goals<br></li>
+b. Countdown timers for time-bound goals<br></li>
 <li>Streak tracking: <br>
 a. Consecutive days meeting daily goals<br>
 b. Longest streak history<br></li>
@@ -123,10 +118,8 @@ d. Profession-specific achievements<br></li>
 <li>Points and leveling system:<br>
 a. Points awarded for goal completion and streak maintenance<br>
 b. Level progression with visual status indicators<br></li>
-<li>Visual celebrations:<br>
-a. Animated confetti and success messages for goal completion<br></li>
 <li>Reward tiers:<br>
-a. Bronze/Silver/Gold/Platinum levels based on consistency<br>
+a. Levels increasing based on consistency<br>
 b. Special rewards for maintaining goals over 3, 6, 12 months<br>
 c. &quot;Posture Master&quot; status for exceptional long-term improvement</li>
 </ol>

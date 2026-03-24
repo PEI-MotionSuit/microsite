@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.9.1">
 <title data-rh="true">Use Cases | MotionSuit</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://motionsuit.github.io/microsite/img/logo.svg"><meta data-rh="true" name="twitter:image" content="https://motionsuit.github.io/microsite/img/logo.svg"><meta data-rh="true" property="og:url" content="https://motionsuit.github.io/microsite/docs/SystemInformation/use_cases"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Use Cases | MotionSuit"><meta data-rh="true" name="description" content="UC-1 – Receive Posture Alerts"><meta data-rh="true" property="og:description" content="UC-1 – Receive Posture Alerts"><link data-rh="true" rel="icon" href="/microsite/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://motionsuit.github.io/microsite/docs/SystemInformation/use_cases"><link data-rh="true" rel="alternate" href="https://motionsuit.github.io/microsite/docs/SystemInformation/use_cases" hreflang="en"><link data-rh="true" rel="alternate" href="https://motionsuit.github.io/microsite/docs/SystemInformation/use_cases" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"System Information","item":"https://motionsuit.github.io/microsite/docs/category/system-information"},{"@type":"ListItem","position":2,"name":"Use Cases","item":"https://motionsuit.github.io/microsite/docs/SystemInformation/use_cases"}]}</script><link rel="alternate" type="application/rss+xml" href="/microsite/blog/rss.xml" title="MotionSuit RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/microsite/blog/atom.xml" title="MotionSuit Atom Feed"><link rel="stylesheet" href="/microsite/assets/css/styles.c876c79f.css">
-<script src="/microsite/assets/js/runtime~main.8293b8a4.js" defer="defer"></script>
+<script src="/microsite/assets/js/runtime~main.1ee354c4.js" defer="defer"></script>
 <script src="/microsite/assets/js/main.60e9a0e7.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -30,7 +30,7 @@
 <li>System detects an incorrect posture:<!-- -->
 <ul>
 <li>Exceeds joint safety limits, or</li>
-<li>Maintained for <code>&gt;30s</code>, or</li>
+<li>Maintained for <code>&gt;15s</code>, or</li>
 <li>Matches a risk pattern.</li>
 </ul>
 </li>
@@ -48,8 +48,8 @@
 <li>The dashboard displays a real-time 3D model that reproduces the user’s movements based on colected data.</li>
 <li>Optional export data:<!-- -->
 <ul>
-<li>Period filters: 7 days, 30 days, 3 months</li>
-<li>Export data as PDF, CSV and JSON for sharing with healthcare professionals</li>
+<li>Period filters: 7 days, 30 days, 3 months.</li>
+<li>Export data as PDF, CSV and JSON for sharing with healthcare professionals.</li>
 </ul>
 </li>
 </ol>
@@ -62,7 +62,7 @@
 <li>User accesses Dashboard.</li>
 <li>System displays:<!-- -->
 <ul>
-<li>Posture angles</li>
+<li>REBA/ROSA score</li>
 <li>Body temperature</li>
 </ul>
 </li>
@@ -78,10 +78,8 @@
 <li>Open Alert Settings.</li>
 <li>Choose:<!-- -->
 <ul>
-<li>Sensitivity (low/med/high)</li>
 <li>Notification type</li>
 <li>Quiet hours</li>
-<li>Posture thresholds</li>
 </ul>
 </li>
 <li>Save preferences.</li>
@@ -100,7 +98,6 @@
 <li>Duration (daily/weekly/custom)</li>
 </ul>
 </li>
-<li>System validates realism (warns if too ambitious).</li>
 <li>Goal saved and tracking begins.</li>
 </ol>
 <p><strong>Postconditions:</strong> New goal recorded in profile.</p>
@@ -113,7 +110,6 @@
 <li>See:<!-- -->
 <ul>
 <li>Progress bars</li>
-<li>Color indicators (Red/Yellow/Green)</li>
 <li>Countdown timers</li>
 <li>Streak counters</li>
 </ul>
@@ -153,8 +149,8 @@
 </li>
 <li>If streak milestones achieved:<!-- -->
 <ul>
-<li>Bronze/Silver/Gold/Platinum tiers</li>
-<li>Animated confetti or success message shown</li>
+<li>Levels (level 1, 2,3, etc.)</li>
+<li>Success message/alert shown</li>
 </ul>
 </li>
 </ol>
@@ -183,7 +179,6 @@
 <li>Open User Management panel.</li>
 <li>Edit/deactivate user profiles.</li>
 <li>Approve and reject researchers.</li>
-<li>Reset passwords if required.</li>
 <li>View usage statistics per user.</li>
 </ol>
 <p><strong>Postconditions:</strong> Account changes saved in system database.</p>
@@ -192,10 +187,15 @@
 <strong>Description:</strong> Investigate postural deviations and patterns.</p>
 <p><strong>Main Flow:</strong></p>
 <ol>
-<li>Logs into researcher dashboard.</li>
-<li>View general dashboard informations.</li>
-<li>Accesses the information of users who authorize it.</li>
-<li>Exports the data collected from users. (CSV / JSON / PDF)</li>
+<li>Logs into analytics dashboard.</li>
+<li>Selects dataset (time range / participants).</li>
+<li>Applies filters:<!-- -->
+<ul>
+<li>Posture vs. time of day</li>
+<li>Temperature vs. physical activity</li>
+</ul>
+</li>
+<li>Exports results (CSV / JSON)</li>
 </ol>
 <p><strong>Postconditions:</strong> Data prepared for scientific analysis.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="uc-12--compare-data-across-user-groups">UC-12 – Compare Data Across User Groups<a href="#uc-12--compare-data-across-user-groups" class="hash-link" aria-label="Direct link to UC-12 – Compare Data Across User Groups" title="Direct link to UC-12 – Compare Data Across User Groups" translate="no">​</a></h3>
@@ -203,15 +203,16 @@
 <strong>Description:</strong> Compare posture data across demographics or professions.</p>
 <p><strong>Main Flow:</strong></p>
 <ol>
-<li>Goes to the participants tab.</li>
 <li>Selects comparison parameters:<!-- -->
 <ul>
-<li>Profession, age and gender.</li>
+<li>Profession, age, gender, injury history.</li>
 </ul>
 </li>
-<li>Exports the data of the user group.</li>
+<li>System aggregates and contrasts datasets.</li>
+<li>Generates visual charts highlighting significant differences.</li>
+<li>Exports automatic comparison report.</li>
 </ol>
-<p><strong>Postconditions:</strong> Group-based data is stored or exported for analysis.</p>
+<p><strong>Postconditions:</strong> Group-based analysis stored or exported.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="uc-13--login--authentication">UC-13 – Login &amp; Authentication<a href="#uc-13--login--authentication" class="hash-link" aria-label="Direct link to UC-13 – Login &amp; Authentication" title="Direct link to UC-13 – Login &amp; Authentication" translate="no">​</a></h3>
 <p><strong>Actor:</strong> Suit User / Researcher / Administrator <br>
 <strong>Description:</strong> The user securely logs into the MotionSuit application to access personalized features, data, and permissions.</p>
