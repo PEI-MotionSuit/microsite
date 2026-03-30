@@ -24,15 +24,14 @@ In this sprint, we continued the work from last semester, starting to implement 
 - Data analysis integration
 - Data analysis alerts integration
 - Goals and Gamification 
-- Keycloak implementation
 - Usability tests and SUS analysis
 - Frontend refactoring
 - Update Microsite
 
 | Expected     | Quantity |
 | ------------ | -------- |
-| Tasks        | 11       |
-| Story Points | 70       |
+| Tasks        | 10       |
+| Story Points | 65       |
 
 ## Sprint Backlog
 
@@ -45,9 +44,8 @@ In this sprint, we continued the work from last semester, starting to implement 
 | KAN-29        | Data analysis integration | Beatriz Francisco             | Done  | 10         |
 | KAN-30        | Data analysis alerts integration       | Mariana Marques  | Done  | 10         |
 | KAN-31        | Goals and Gamification  | Matilde Rodrigues               | Done  | 10         |
-| KAN-32        | Keycloak implementation | Marta Cruz                      | Not Done  | 5      |
-| KAN-33        | Usability tests and SUS analysis | Catarina Ribeiro and Marta Cruz            | Done  | 5            |
-| KAN-34        | Frontend refactoring | Catarina Ribeiro                   | Done  | 5          |
+| KAN-32        | Usability tests and SUS analysis | Catarina Ribeiro and Marta Cruz            | Done  | 5            |
+| KAN-33        | Frontend refactoring | Catarina Ribeiro                   | Done  | 5          |
 | KAN-16        | Update Microsite            | Catarina Ribeiro            | Done  | 5          |
 
 ### Task Status (Completed/Not Completed)
@@ -59,9 +57,8 @@ In this sprint, we continued the work from last semester, starting to implement 
 - [x] KAN-29: Data analysis integration
 - [x] KAN-30: Data analysis alerts integration
 - [x] KAN-31: Goals and Gamification 
-- [ ] KAN-32: Keycloak implementation
-- [x] KAN-33: Usability tests and SUS analysis
-- [x] KAN-34: Frontend refactoring
+- [x] KAN-32: Usability tests and SUS analysis
+- [x] KAN-33: Frontend refactoring
 - [x] KAN-16: Update Microsite
 
 ## Sprint Review
@@ -73,6 +70,6 @@ In this sprint, we continued the work from last semester, starting to implement 
 
 ## Sprint Retrospective
 
-This sprint was focused and productive, with the team making significant progress on usability and accessibility features. The implementation of dark mode, color blind mode, and text-to-speech functionality marked important steps toward a more inclusive user experience, while the frontend refactoring helped improve the overall code maintainability. Although Keycloak was not completed, this task was intentionally started ahead of schedule and will be finalized in the next sprint as planned. Overall, the team delivered 10 out of 11 tasks, successfully achieving the sprint's core objectives.
+This sprint was focused and productive, with the team making significant progress on usability and accessibility features. The implementation of dark mode, color blind mode, and text-to-speech functionality marked important steps toward a more inclusive user experience, while the frontend refactoring helped improve the overall code maintainability. Furthermore, we successfully moved beyond the core milestone objectives by proactively advancing several integration and security tasks, putting the project ahead of the initial schedule.
 
 <!-- truncate -->`

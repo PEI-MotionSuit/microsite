@@ -6,7 +6,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Milestones',
-      items: ['Milestone1', 'Milestone2', 'Milestone3', 'Milestone4']
+      items: ['Milestone1', 'Milestone2', 'Milestone3', 'Milestone4', 'Milestone5']
     },
   ],
 };

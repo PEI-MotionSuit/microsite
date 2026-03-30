@@ -56,7 +56,7 @@ const ImageCarousel = ({ items, imageStyle = {} }) => {
           <img 
             src={item.url} 
             alt={`Slide ${idx}`} 
-            style={finalImageStyle} 
+            style={{ ...finalImageStyle, ...item.style }} 
           />
           {item.caption && (
             <p style={{ 
@@ -66,7 +66,7 @@ const ImageCarousel = ({ items, imageStyle = {} }) => {
               padding: "5px 10px",
               borderRadius: "10px",
               margin: "10px auto 0",
-              maxWidth: finalImageStyle.maxWidth || "900px",
+              maxWidth: (item.style && item.style.maxWidth) || finalImageStyle.maxWidth || "900px",
               width: "fit-content"
             }}>{item.caption}</p> 
           )}
