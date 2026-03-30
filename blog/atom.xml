@@ -2,11 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://motionsuit.github.io/microsite/blog</id>
     <title>MotionSuit Blog</title>
-    <updated>2026-03-17T00:16:28.000Z</updated>
+    <updated>2026-03-30T20:56:14.143Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://motionsuit.github.io/microsite/blog"/>
     <subtitle>MotionSuit Blog</subtitle>
     <icon>https://motionsuit.github.io/microsite/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Sprint 5]]></title>
+        <id>https://motionsuit.github.io/microsite/blog/Sprint 5</id>
+        <link href="https://motionsuit.github.io/microsite/blog/Sprint 5"/>
+        <updated>2026-03-30T20:56:14.143Z</updated>
+        <summary type="html"><![CDATA[From: 2026-03-18]]></summary>
+        <content type="html"><![CDATA[<p><strong>From</strong>: 2026-03-18</p>
+<p><strong>To</strong>: 2026-03-31</p>
+<p><strong>Scrum Master</strong>: Matilde Rodrigues</p>
+<p><strong>Product Owner</strong>: IEETA</p>
+<p><strong>Developers</strong>: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro</p>
+<p>In this sprint, our primary focus was refining the current prototype for the upcoming milestone demonstration by refining existing features and improving user navigation. Additionally, we initiated the integration of multi-sensor support to expand the system’s core capabilities.</p>
+<ul>
+<li>Second sensor implementation</li>
+<li>Researcher analysis</li>
+<li>Extra page for the session history</li>
+<li>Gamification improvement</li>
+<li>Keycloak implementation</li>
+<li>Update Microsite</li>
+</ul>
+<table><thead><tr><th>Expected</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>6</td></tr><tr><td>Story Points</td><td>40</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-backlog">Sprint Backlog<a href="https://motionsuit.github.io/microsite/blog/Sprint%205#sprint-backlog" class="hash-link" aria-label="Direct link to Sprint Backlog" title="Direct link to Sprint Backlog" translate="no">​</a></h2>
+<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-34</td><td>Second sensor implementation</td><td>Marta Cruz</td><td>Done</td><td>10</td></tr><tr><td>KAN-35</td><td>Researcher analysis</td><td>Beatriz Francisco and Mariana Marques</td><td>Not Done</td><td>10</td></tr><tr><td>KAN-36</td><td>Extra page for the session history</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-37</td><td>Gamification improvement</td><td>Matilde Rodrigues</td><td>Done</td><td>5</td></tr><tr><td>KAN-38</td><td>Keycloak implementation</td><td>Marta Cruz</td><td>Not Done</td><td>5</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="task-status-completednot-completed">Task Status (Completed/Not Completed)<a href="https://motionsuit.github.io/microsite/blog/Sprint%205#task-status-completednot-completed" class="hash-link" aria-label="Direct link to Task Status (Completed/Not Completed)" title="Direct link to Task Status (Completed/Not Completed)" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-25: Second sensor implementation</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-26: Researcher analysis</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-27: Extra page for the session history</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-28: Gamification improvement</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-29: Keycloak implementation</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-16: Update Microsite</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://motionsuit.github.io/microsite/blog/Sprint%205#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
+<table><thead><tr><th>Concluded</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>4</td></tr><tr><td>Story Points</td><td>25</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-retrospective">Sprint Retrospective<a href="https://motionsuit.github.io/microsite/blog/Sprint%205#sprint-retrospective" class="hash-link" aria-label="Direct link to Sprint Retrospective" title="Direct link to Sprint Retrospective" translate="no">​</a></h2>
+<p>The team focused heavily on stabilizing the current prototype for the upcoming milestone, ensuring all user-facing features were functional and improving some of them. Although the Keycloak and Researcher analysys were not completed, these tasks intentionally started ahead of schedule and will be finished in the next sprint as planned. Overall, the team delivered 4 out of 6 tasks, successfully achieving the sprint's core objectives.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sprint 4]]></title>
         <id>https://motionsuit.github.io/microsite/blog/Sprint 4</id>
@@ -27,14 +64,13 @@
 <li>Data analysis integration</li>
 <li>Data analysis alerts integration</li>
 <li>Goals and Gamification</li>
-<li>Keycloak implementation</li>
 <li>Usability tests and SUS analysis</li>
 <li>Frontend refactoring</li>
 <li>Update Microsite</li>
 </ul>
-<table><thead><tr><th>Expected</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>11</td></tr><tr><td>Story Points</td><td>70</td></tr></tbody></table>
+<table><thead><tr><th>Expected</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>10</td></tr><tr><td>Story Points</td><td>65</td></tr></tbody></table>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-backlog">Sprint Backlog<a href="https://motionsuit.github.io/microsite/blog/Sprint%204#sprint-backlog" class="hash-link" aria-label="Direct link to Sprint Backlog" title="Direct link to Sprint Backlog" translate="no">​</a></h2>
-<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-25</td><td>Dark mode</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-26</td><td>Color blind mode</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-27</td><td>Text-to-speech</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-28</td><td>System security improvement</td><td>Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-29</td><td>Data analysis integration</td><td>Beatriz Francisco</td><td>Done</td><td>10</td></tr><tr><td>KAN-30</td><td>Data analysis alerts integration</td><td>Mariana Marques</td><td>Done</td><td>10</td></tr><tr><td>KAN-31</td><td>Goals and Gamification</td><td>Matilde Rodrigues</td><td>Done</td><td>10</td></tr><tr><td>KAN-32</td><td>Keycloak implementation</td><td>Marta Cruz</td><td>Not Done</td><td>5</td></tr><tr><td>KAN-33</td><td>Usability tests and SUS analysis</td><td>Catarina Ribeiro and Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-34</td><td>Frontend refactoring</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
+<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-25</td><td>Dark mode</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-26</td><td>Color blind mode</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-27</td><td>Text-to-speech</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-28</td><td>System security improvement</td><td>Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-29</td><td>Data analysis integration</td><td>Beatriz Francisco</td><td>Done</td><td>10</td></tr><tr><td>KAN-30</td><td>Data analysis alerts integration</td><td>Mariana Marques</td><td>Done</td><td>10</td></tr><tr><td>KAN-31</td><td>Goals and Gamification</td><td>Matilde Rodrigues</td><td>Done</td><td>10</td></tr><tr><td>KAN-32</td><td>Usability tests and SUS analysis</td><td>Catarina Ribeiro and Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-33</td><td>Frontend refactoring</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="task-status-completednot-completed">Task Status (Completed/Not Completed)<a href="https://motionsuit.github.io/microsite/blog/Sprint%204#task-status-completednot-completed" class="hash-link" aria-label="Direct link to Task Status (Completed/Not Completed)" title="Direct link to Task Status (Completed/Not Completed)" translate="no">​</a></h3>
 <ul class="contains-task-list containsTaskList_mC6p">
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-25: Dark mode</li>
@@ -44,15 +80,14 @@
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-29: Data analysis integration</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-30: Data analysis alerts integration</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-31: Goals and Gamification</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-32: Keycloak implementation</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-33: Usability tests and SUS analysis</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-34: Frontend refactoring</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-32: Usability tests and SUS analysis</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-33: Frontend refactoring</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-16: Update Microsite</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://motionsuit.github.io/microsite/blog/Sprint%204#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
 <table><thead><tr><th>Concluded</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>10</td></tr><tr><td>Story Points</td><td>65</td></tr></tbody></table>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-retrospective">Sprint Retrospective<a href="https://motionsuit.github.io/microsite/blog/Sprint%204#sprint-retrospective" class="hash-link" aria-label="Direct link to Sprint Retrospective" title="Direct link to Sprint Retrospective" translate="no">​</a></h2>
-<p>This sprint was focused and productive, with the team making significant progress on usability and accessibility features. The implementation of dark mode, color blind mode, and text-to-speech functionality marked important steps toward a more inclusive user experience, while the frontend refactoring helped improve the overall code maintainability. Although Keycloak was not completed, this task was intentionally started ahead of schedule and will be finalized in the next sprint as planned. Overall, the team delivered 10 out of 11 tasks, successfully achieving the sprint's core objectives.</p>]]></content>
+<p>This sprint was focused and productive, with the team making significant progress on usability and accessibility features. The implementation of dark mode, color blind mode, and text-to-speech functionality marked important steps toward a more inclusive user experience, while the frontend refactoring helped improve the overall code maintainability. Furthermore, we successfully moved beyond the core milestone objectives by proactively advancing several integration and security tasks, putting the project ahead of the initial schedule.</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Sprint 3]]></title>
