@@ -3,3 +3,58 @@ sidebar_position: 4
 ---
 
 # Researcher Interfaces
+
+import ImageCarousel from '@site/src/components/ImageCarousel';
+import Participants from '@site/static/img/researcher/participants.mp4'
+import Experiments from '@site/static/img/researcher/study.mp4'
+import Reports from '@site/static/img/researcher/reports.mp4'
+import R2 from '@site/static/img/researcher/researcher2.jpeg'
+import R3 from '@site/static/img/researcher/researcher3.jpeg'
+import R4 from '@site/static/img/researcher/researcher4.jpeg'
+import R5 from '@site/static/img/researcher/researcher5.jpeg'
+import R6 from '@site/static/img/researcher/researcher6.jpeg'
+import R7 from '@site/static/img/researcher/researcher7.jpeg'
+import R8 from '@site/static/img/researcher/researcher8.jpeg'
+import R9 from '@site/static/img/researcher/researcher9.jpeg'
+import R10 from '@site/static/img/researcher/researcher10.jpeg'
+import R11 from '@site/static/img/researcher/researcher11.jpeg'
+
+## Dashboard
+
+![image](@site/static/img/researcher/researcher1.png)
+
+## Participants
+
+<video controls muted width="100%">
+  <source src={Participants} type="video/mp4" />
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+## Experiments
+
+<video controls muted width="100%">
+  <source src={Experiments} type="video/mp4" />
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+## Analysis
+
+<ImageCarousel items={[
+    { url: R2, caption: 'Analysis Dashboard' },
+    { url: R3, caption: 'Analysis for all participants' },
+    { url: R4, caption: 'Demographic analysis by ocupation' },
+    { url: R5, caption: 'Filter selection' },
+    { url: R6, caption: 'Filtered analysis' },
+    { url: R7, caption: 'Demographic analysis after the filter' },
+    { url: R9, caption: 'Demographic filer selection' },
+    { url: R8, caption: 'Filtered demographic analysis' },
+    { url: R10, caption: 'Export demographic analysis' },
+    { url: R11, caption: 'Export analysis' },
+]} />
+
+## Reports
+
+<video controls muted width="100%">
+  <source src={Reports} type="video/mp4" />
+  Seu navegador não suporta o elemento de vídeo.
+</video>
