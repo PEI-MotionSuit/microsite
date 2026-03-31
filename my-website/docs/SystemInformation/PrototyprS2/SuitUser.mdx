@@ -2,4 +2,184 @@
 sidebar_position: 2
 ---
 
+import ImageCarousel from '@site/src/components/ImageCarousel';
+import Analysis from '@site/static/img/suitUser/analysis.mp4';
+import A1 from '@site/static/img/suitUser/analysis1.png';
+import A2 from '@site/static/img/suitUser/analysis2.png';
+import A3 from '@site/static/img/suitUser/analysis3.png';
+import A4 from '@site/static/img/suitUser/analysis4.png';
+import A5 from '@site/static/img/suitUser/analysis5.png';
+import A6 from '@site/static/img/suitUser/analysis6.png';
+import A7 from '@site/static/img/suitUser/analysis7.png';
+import A8 from '@site/static/img/suitUser/analysis8.png';
+import A9 from '@site/static/img/suitUser/analysis9.png';
+import A10 from '@site/static/img/suitUser/analysis10.png';
+import D1 from '@site/static/img/suitUser/dashboard.png';
+import D2 from '@site/static/img/suitUser/dashboard2.png';
+import D3 from '@site/static/img/suitUser/dashboard3.png';
+import D4 from '@site/static/img/suitUser/dashboard4.png';
+import G1 from '@site/static/img/suitUser/goals1.png';
+import G2 from '@site/static/img/suitUser/goals2.png';
+import G3 from '@site/static/img/suitUser/goals3.png';
+import G4 from '@site/static/img/suitUser/goals4.png';
+import G5 from '@site/static/img/suitUser/goals5.png';
+import AL1 from '@site/static/img/suitUser/alerts1.png';
+import AL2 from '@site/static/img/suitUser/alerts2.png';
+import AL3 from '@site/static/img/suitUser/alerts3.png';
+import AL4 from '@site/static/img/suitUser/alerts4.png';
+import AL5 from '@site/static/img/suitUser/alerts5.png';
+import SE1 from '@site/static/img/suitUser/sessions1.png';
+import SE2 from '@site/static/img/suitUser/sessions2.png';
+import SE3 from '@site/static/img/suitUser/sessions3.png';
+import SE4 from '@site/static/img/suitUser/sessions4.png';
+import SE5 from '@site/static/img/suitUser/sessions5.png';
+import SE6 from '@site/static/img/suitUser/sessions6.png';
+import S1 from '@site/static/img/suitUser/settings1.png';
+import S2 from '@site/static/img/suitUser/settings2.png';
+import E1 from '@site/static/img/suitUser/export1.png';
+import E2 from '@site/static/img/suitUser/export2.png';
+import E3 from '@site/static/img/suitUser/export3.png';
+import E4 from '@site/static/img/suitUser/export4.png';
+import E5 from '@site/static/img/suitUser/export5.png';
+import REBA from '@site/static/img/suitUser/reba.mp4';
+import ROSA from '@site/static/img/suitUser/rosa.mp4';
+import Gamification from '@site/static/img/suitUser/gamification.mp4';
+import TTS from '@site/static/img/suitUser/text_to_speech.mp4';
+import TTSL from '@site/static/img/suitUser/live_text_to_speech.mp4';
+import LiveAlerts from '@site/static/img/suitUser/alerts.mp4';
+import Sensor from '@site/static/img/suitUser/sensor.mp4';
+
+
 # Suit User Interfaces
+
+## Dashboard
+
+<ImageCarousel items={[
+    { url: D1, caption: 'Suit User Dashboard' },
+    { url: D2, caption: 'Dashboard Dark mode' },
+    { url: D3, caption: 'Connect Suit in the Nav Bar'},
+    { url: D4, caption: 'Text-to-speech modes in the Nav Bar'},
+]} />
+
+## REBA Simulation
+
+<video controls muted width="250PX">
+  <source src={REBA} type="video/mp4" />
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+## ROSA Simulation
+
+<video controls muted width="250PX">
+  <source src={ROSA} type="video/mp4" />
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+## REBA analysis with real-time data
+
+<video controls muted width="100%">
+  <source src={Sensor} type="video/mp4" />
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+## Text-to-speech
+
+<div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
+  
+  <video controls style={{ width: '250px' }}>
+    <source src={TTS} type="video/mp4" />
+  </video>
+
+  <video controls style={{ width: '250px' }}>
+    <source src={TTSL} type="video/mp4" />
+  </video>
+
+</div>
+
+## Data Analysis
+
+### Interfaces
+
+<ImageCarousel items={[
+    { url: A1, caption: 'Today\'s analysis', style: { maxWidth: '250px' } },
+    { url: A2, caption: 'Today\'s analysis', style: { maxWidth: '250px' } },
+    { url: A3, caption: 'Today\'s sessions', style: { maxWidth: '250px' } },
+    { url: A4, caption: 'Weekly analysis', style: { maxWidth: '250px' } },
+    { url: A5, caption: 'Week days analysis', style: { maxWidth: '250px' } },
+    { url: A6, caption: 'Monthly analysis', style: { maxWidth: '250px' } },
+    { url: A7, caption: 'Weeks of the month analysis', style: { maxWidth: '250px' } },
+    { url: A8, caption: 'Yearly analysis', style: { maxWidth: '250px' } },
+    { url: A9, caption: 'Months of the year analysis', style: { maxWidth: '250px' } },
+    { url: A10, caption: 'March Sessions', style: { maxWidth: '250px' } },
+]} />
+
+### Grafics of the sessions
+<video controls muted width="250PX">
+  <source src={Analysis} type="video/mp4" />
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+## Gamification
+
+### Interfaces
+
+<ImageCarousel items={[
+    { url: G1, caption: 'Goals Page', style: { maxWidth: '250px' } },
+    { url: G2, caption: 'My active goals', style: { maxWidth: '250px' } },
+    { url: G3, caption: 'Completed goals', style: { maxWidth: '250px' } },
+    { url: G4, caption: 'Performance insights', style: { maxWidth: '250px' } },
+    { url: G5, caption: 'Weekly performance', style: { maxWidth: '250px' } },
+]} />
+
+### Creation of a Goal
+
+<video controls muted width="250PX">
+  <source src={Gamification} type="video/mp4" />
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+## Alerts
+
+### Interfaces
+
+<ImageCarousel items={[
+    { url: AL1, caption: 'All registered alerts', style: { maxWidth: '250px' } },
+    { url: AL2, caption: 'Unread alerts', style: { maxWidth: '250px' } },
+    { url: AL3, caption: 'Critical alerts', style: { maxWidth: '250px' } },
+    { url: AL4, caption: 'Warning alerts', style: { maxWidth: '250px' } },
+    { url: AL5, caption: 'Info alerts', style: { maxWidth: '250px' } },
+]} />
+
+### Live reception of an alert
+
+<video controls muted width="250PX">
+  <source src={LiveAlerts} type="video/mp4" />
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
+## Session History
+<ImageCarousel items={[
+    { url: SE1, caption: 'Profile Page', style: { maxWidth: '250px' } },
+    { url: SE2, caption: '5 Most recent sessions', style: { maxWidth: '250px' } },
+    { url: SE3, caption: 'Show more sessions', style: { maxWidth: '250px' } },
+    { url: SE4, caption: 'Session History Page', style: { maxWidth: '250px' } },
+    { url: SE5, caption: 'Second page of sessions', style: { maxWidth: '250px' } },
+    { url: SE6, caption: 'Filter sessions by date', style: { maxWidth: '250px' } },
+]} />
+
+## Export Data
+
+<ImageCarousel items={[
+    { url: E1, caption: 'Export Data Page', style: { maxWidth: '250px' } },
+    { url: E2, caption: 'Data type selection', style: { maxWidth: '250px' } },
+    { url: E3, caption: 'Date range selection', style: { maxWidth: '250px' } },
+    { url: E4, caption: 'Export format selection', style: { maxWidth: '250px' } },
+    { url: E5, caption: 'Export Preview', style: { maxWidth: '250px' } },
+]} />
+
+## System Settings
+
+<ImageCarousel items={[
+    { url: S1, caption: 'User\'s Account Settings' , style: { maxWidth: '250px' } },
+    { url: S2, caption: 'User\'s Account Settings' , style: { maxWidth: '250px' } },
+]} />

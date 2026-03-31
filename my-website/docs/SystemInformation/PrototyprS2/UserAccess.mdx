@@ -7,11 +7,11 @@ sidebar_position: 1
 import React from 'react';
 import ImageCarousel from '@site/src/components/ImageCarousel';
 import Page1 from '@site/static/img/userAccess/login1.jpeg';
-import Page2 from '@site/static/img/userAccess/login2.jpeg';
+import Page2 from '@site/static/img/userAccess/login2.png';
 import Page3 from '@site/static/img/userAccess/signin1.jpeg';
 import Page4 from '@site/static/img/userAccess/signin2.jpeg';
-import Page5 from '@site/static/img/userAccess/signin3.jpeg';
-import Page6 from '@site/static/img/userAccess/signin4.jpeg';
+import Page5 from '@site/static/img/userAccess/signin3.png';
+import Page6 from '@site/static/img/userAccess/signin4.png';
 import Page7 from '@site/static/img/userAccess/terms.jpeg';
 
 ## Log in
@@ -27,12 +27,8 @@ import Page7 from '@site/static/img/userAccess/terms.jpeg';
 
 <ImageCarousel items={[
     { url: Page3, caption: 'Registration for Suit Users' },
+    { url: Page4, caption: 'Registration for Researchers' },
     { url: Page5, style: { maxWidth: '200px' }},
     { url: Page6, style: { maxWidth: '200px' }},
-]} />
-
-<ImageCarousel items={[
-    { url: Page4, caption: 'Registration for Researchers' },
     { url: Page7, caption: 'Terms and conditions' },
-
 ]} />
