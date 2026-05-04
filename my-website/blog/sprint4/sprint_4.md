@@ -13,7 +13,7 @@ title: Sprint 4
 
 **Product Owner**: IEETA
 
-**Developers**: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro
+**Developers**: Marta Cruz, Mariana Marques, Beatriz Francisco, Matilde Rodrigues
 
 In this sprint, we continued the work from last semester, starting to implement more features with special attention to usability and accessibility, which are the main goals for the first milestone of this semester.
 

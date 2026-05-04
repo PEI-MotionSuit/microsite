@@ -13,7 +13,7 @@ title: Sprint 5
 
 **Product Owner**: IEETA
 
-**Developers**: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro
+**Developers**: Marta Cruz, Mariana Marques, Beatriz Francisco, Catarina Ribeiro
 
 In this sprint, our primary focus was refining the current prototype for the upcoming milestone demonstration by refining existing features and improving user navigation. Additionally, we initiated the integration of multi-sensor support to expand the system’s core capabilities.
 
@@ -42,11 +42,11 @@ In this sprint, our primary focus was refining the current prototype for the upc
 
 ### Task Status (Completed/Not Completed)
 
-- [x] KAN-25: Second sensor implementation
-- [ ] KAN-26: Researcher analysis
-- [x] KAN-27: Extra page for the session history
-- [x] KAN-28: Gamification improvement
-- [ ] KAN-29: Keycloak implementation 
+- [x] KAN-34: Second sensor implementation
+- [ ] KAN-35: Researcher analysis
+- [x] KAN-36: Extra page for the session history
+- [x] KAN-37: Gamification improvement
+- [ ] KAN-38: Keycloak implementation 
 - [x] KAN-16: Update Microsite
 
 ## Sprint Review

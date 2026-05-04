@@ -13,7 +13,7 @@ title: Sprint 3
 
 **Product Owner**: IEETA
 
-**Developers**: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro
+**Developers**: Marta Cruz, Mariana Marques, Matilde Rodrigues, Catarina Ribeiro
 
 In this sprint, we aimed to finish all tasks related to the MVP for the milestone 3 and also an extra task that was not planned for this semester. 
 

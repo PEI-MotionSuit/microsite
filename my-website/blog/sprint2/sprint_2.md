@@ -13,7 +13,7 @@ title: Sprint 2
 
 **Product Owner**: IEETA
 
-**Developers**: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro
+**Developers**: Mariana Marques, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro
 
 In this sprint, we aimed to finish all the tasks that were not possible to complete in the previous sprint and since we had already completed most of the goals for milestone 2 in the previous sprint, we also started to advance work towards milestone 3:
 
