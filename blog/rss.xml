@@ -4,10 +4,49 @@
         <title>MotionSuit Blog</title>
         <link>https://motionsuit.github.io/microsite/blog</link>
         <description>MotionSuit Blog</description>
-        <lastBuildDate>Mon, 30 Mar 2026 23:34:02 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 May 2026 23:50:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Sprint 6]]></title>
+            <link>https://motionsuit.github.io/microsite/blog/Sprint 6</link>
+            <guid>https://motionsuit.github.io/microsite/blog/Sprint 6</guid>
+            <pubDate>Mon, 04 May 2026 23:50:15 GMT</pubDate>
+            <description><![CDATA[From: 2026-04-01]]></description>
+            <content:encoded><![CDATA[<p><strong>From</strong>: 2026-04-01</p>
+<p><strong>To</strong>: 2026-05-05</p>
+<p><strong>Scrum Master</strong>: Beatriz Francisco</p>
+<p><strong>Product Owner</strong>: IEETA</p>
+<p><strong>Developers</strong>: Marta Cruz, Mariana Marques, Matilde Rodrigues, Catarina Ribeiro</p>
+<p>In this sprint, our primary focus was to complete the remaining tasks from the previous sprint and continue the final system deployments. Additionally, we proceeded with the integration of multi-sensor support, expanding it to 7 sensors.</p>
+<ul>
+<li>Researcher analysis</li>
+<li>Keycloak implementation</li>
+<li>Implementation of 7 sensores</li>
+<li>Chatbot implementation</li>
+<li>PWA suport implementation</li>
+<li>Smartwatch integration</li>
+<li>Update Microsite</li>
+</ul>
+<table><thead><tr><th>Expected</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>7</td></tr><tr><td>Story Points</td><td>50</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-backlog">Sprint Backlog<a href="https://motionsuit.github.io/microsite/blog/Sprint%206#sprint-backlog" class="hash-link" aria-label="Direct link to Sprint Backlog" title="Direct link to Sprint Backlog" translate="no">​</a></h2>
+<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-35</td><td>Researcher analysis</td><td>Beatriz Francisco and Mariana Marques</td><td>Done</td><td>10</td></tr><tr><td>KAN-38</td><td>Keycloak implementation</td><td>Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-39</td><td>Implementation of 7 sensores</td><td>Marta Cruz</td><td>Done</td><td>10</td></tr><tr><td>KAN-40</td><td>Chatbot implementation</td><td>Beatriz Francisco and Matilde Rodrigues</td><td>Done</td><td>5</td></tr><tr><td>KAN-41</td><td>PWA suport implementation</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-42</td><td>Smartwatch integration</td><td>Mariana Marques</td><td>Not Done</td><td>10</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="task-status-completednot-completed">Task Status (Completed/Not Completed)<a href="https://motionsuit.github.io/microsite/blog/Sprint%206#task-status-completednot-completed" class="hash-link" aria-label="Direct link to Task Status (Completed/Not Completed)" title="Direct link to Task Status (Completed/Not Completed)" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-35: Researcher analysis</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-38: Keycloak implementation</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-39: Implementation of 7 sensores</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-40: Chatbot implementation</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-41: PWA suport implementation</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-42: Smartwatch integration</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-16: Update Microsite</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://motionsuit.github.io/microsite/blog/Sprint%206#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
+<table><thead><tr><th>Concluded</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>5</td></tr><tr><td>Story Points</td><td>40</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-retrospective">Sprint Retrospective<a href="https://motionsuit.github.io/microsite/blog/Sprint%206#sprint-retrospective" class="hash-link" aria-label="Direct link to Sprint Retrospective" title="Direct link to Sprint Retrospective" translate="no">​</a></h2>
+<p>During this sprint, the team successfully focused on finalizing system deployments, completing pending work, and expanding multi-sensor support. As planned, tasks Researcher analysis and Keycloak implementation, which were initiated ahead of schedule in the previous sprint, were fully completed. Similarly, work on Smartwatch integration began during this sprint, but it is intentionally scheduled to be finished in the upcoming sprint. Overall, the team delivered 6 out of 7 tasks and achieved 40 story points, successfully meeting the sprint's core objectives and maintaining steady progress.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Sprint 5]]></title>
             <link>https://motionsuit.github.io/microsite/blog/Sprint 5</link>
@@ -18,7 +57,7 @@
 <p><strong>To</strong>: 2026-03-31</p>
 <p><strong>Scrum Master</strong>: Matilde Rodrigues</p>
 <p><strong>Product Owner</strong>: IEETA</p>
-<p><strong>Developers</strong>: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro</p>
+<p><strong>Developers</strong>: Marta Cruz, Mariana Marques, Beatriz Francisco, Catarina Ribeiro</p>
 <p>In this sprint, our primary focus was refining the current prototype for the upcoming milestone demonstration by refining existing features and improving user navigation. Additionally, we initiated the integration of multi-sensor support to expand the system’s core capabilities.</p>
 <ul>
 <li>Second sensor implementation</li>
@@ -33,11 +72,11 @@
 <table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-34</td><td>Second sensor implementation</td><td>Marta Cruz</td><td>Done</td><td>10</td></tr><tr><td>KAN-35</td><td>Researcher analysis</td><td>Beatriz Francisco and Mariana Marques</td><td>Not Done</td><td>10</td></tr><tr><td>KAN-36</td><td>Extra page for the session history</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-37</td><td>Gamification improvement</td><td>Matilde Rodrigues</td><td>Done</td><td>5</td></tr><tr><td>KAN-38</td><td>Keycloak implementation</td><td>Marta Cruz</td><td>Not Done</td><td>5</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="task-status-completednot-completed">Task Status (Completed/Not Completed)<a href="https://motionsuit.github.io/microsite/blog/Sprint%205#task-status-completednot-completed" class="hash-link" aria-label="Direct link to Task Status (Completed/Not Completed)" title="Direct link to Task Status (Completed/Not Completed)" translate="no">​</a></h3>
 <ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-25: Second sensor implementation</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-26: Researcher analysis</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-27: Extra page for the session history</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-28: Gamification improvement</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-29: Keycloak implementation</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-34: Second sensor implementation</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-35: Researcher analysis</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-36: Extra page for the session history</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-37: Gamification improvement</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-38: Keycloak implementation</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-16: Update Microsite</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://motionsuit.github.io/microsite/blog/Sprint%205#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
@@ -55,7 +94,7 @@
 <p><strong>To</strong>: 2026-03-17</p>
 <p><strong>Scrum Master</strong>: Catarina Ribeiro</p>
 <p><strong>Product Owner</strong>: IEETA</p>
-<p><strong>Developers</strong>: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro</p>
+<p><strong>Developers</strong>: Marta Cruz, Mariana Marques, Beatriz Francisco, Matilde Rodrigues</p>
 <p>In this sprint, we continued the work from last semester, starting to implement more features with special attention to usability and accessibility, which are the main goals for the first milestone of this semester.</p>
 <ul>
 <li>Dark mode</li>
@@ -100,7 +139,7 @@
 <p><strong>To</strong>: 2025-12-16</p>
 <p><strong>Scrum Master</strong>: Beatriz Francisco</p>
 <p><strong>Product Owner</strong>: IEETA</p>
-<p><strong>Developers</strong>: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro</p>
+<p><strong>Developers</strong>: Marta Cruz, Mariana Marques, Matilde Rodrigues, Catarina Ribeiro</p>
 <p>In this sprint, we aimed to finish all tasks related to the MVP for the milestone 3 and also an extra task that was not planned for this semester.</p>
 <ul>
 <li>Setup all four databases</li>
@@ -141,7 +180,7 @@
 <p><strong>To</strong>: 2025-11-18</p>
 <p><strong>Scrum Master</strong>: Marta Cruz</p>
 <p><strong>Product Owner</strong>: IEETA</p>
-<p><strong>Developers</strong>: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro</p>
+<p><strong>Developers</strong>: Mariana Marques, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro</p>
 <p>In this sprint, we aimed to finish all the tasks that were not possible to complete in the previous sprint and since we had already completed most of the goals for milestone 2 in the previous sprint, we also started to advance work towards milestone 3:</p>
 <ul>
 <li>UI Mockups</li>
