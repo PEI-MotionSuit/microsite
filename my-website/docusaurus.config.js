@@ -54,6 +54,8 @@ const config = {
         },
         blog: {
           showReadingTime: false,
+          blogSidebarCount: 'ALL',
+          postsPerPage: 'ALL',
           //feedOptions: {
           //  type: ['rss', 'atom'],
           //  xslt: true,
