@@ -2,11 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://motionsuit.github.io/microsite/blog</id>
     <title>MotionSuit Blog</title>
-    <updated>2026-05-04T23:55:38.000Z</updated>
+    <updated>2026-05-19T01:59:01.190Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://motionsuit.github.io/microsite/blog"/>
     <subtitle>MotionSuit Blog</subtitle>
     <icon>https://motionsuit.github.io/microsite/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Sprint 7]]></title>
+        <id>https://motionsuit.github.io/microsite/blog/Sprint 7</id>
+        <link href="https://motionsuit.github.io/microsite/blog/Sprint 7"/>
+        <updated>2026-05-19T01:59:01.190Z</updated>
+        <summary type="html"><![CDATA[From: 2026-05-06]]></summary>
+        <content type="html"><![CDATA[<p><strong>From</strong>: 2026-05-06</p>
+<p><strong>To</strong>: 2026-05-19</p>
+<p><strong>Scrum Master</strong>: Catarina Ribeiro</p>
+<p><strong>Product Owner</strong>: IEETA</p>
+<p><strong>Developers</strong>: Marta Cruz, Mariana Marques, Beatriz Francisco, Matilde Rodrigues</p>
+<p>In this sprint, our primary focus shifted towards system stabilization, quality assurance and deployment readiness. We dedicated significant effort to implementing comprehensive testing, analyzing and improving security and setting up robust CI/CD pipelines for the final deployment. Additionally, we focused on hardware-related tasks, specifically the calibration and building of the suit, while also finalizing the customization of the Keycloak pages.</p>
+<ul>
+<li>Customizing keycloak pages</li>
+<li>Unit tests</li>
+<li>Scalability and performance tests</li>
+<li>Integration tests</li>
+<li>Analysis and improvement of security</li>
+<li>CI/CD Pipelines</li>
+<li>Deployment</li>
+<li>Suit calibration</li>
+<li>Suit building</li>
+<li>Update Microsite</li>
+</ul>
+<table><thead><tr><th>Expected</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>10</td></tr><tr><td>Story Points</td><td>55</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-backlog">Sprint Backlog<a href="https://motionsuit.github.io/microsite/blog/Sprint%207#sprint-backlog" class="hash-link" aria-label="Direct link to Sprint Backlog" title="Direct link to Sprint Backlog" translate="no">​</a></h2>
+<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-43</td><td>Customizing keycloak pages</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-44</td><td>Unit tests</td><td>Matilde Rodrigues</td><td>Done</td><td>5</td></tr><tr><td>KAN-45</td><td>Scalability and performance tests</td><td>Mariana Marques and Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-46</td><td>Integration tests</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-47</td><td>Analysis and improvement of security</td><td>Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-48</td><td>CI/CD Pipelines</td><td>Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-49</td><td>Deployment</td><td>Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-50</td><td>Suit calibration</td><td>Marta Cruz and Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-51</td><td>Suit building</td><td>All</td><td>Not Done</td><td>10</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="task-status-completednot-completed">Task Status (Completed/Not Completed)<a href="https://motionsuit.github.io/microsite/blog/Sprint%207#task-status-completednot-completed" class="hash-link" aria-label="Direct link to Task Status (Completed/Not Completed)" title="Direct link to Task Status (Completed/Not Completed)" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-43: Customizing keycloak pages</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-44: Unit tests</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-45: Scalability and performance tests</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-46: Integration tests</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-47: Analysis and improvement of security</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-48: CI/CD Pipelines</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-49: Deployment</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-50: Suit calibration</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-51: Suit building</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-16: Update Microsite</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://motionsuit.github.io/microsite/blog/Sprint%207#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
+<table><thead><tr><th>Concluded</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>9</td></tr><tr><td>Story Points</td><td>45</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-retrospective">Sprint Retrospective<a href="https://motionsuit.github.io/microsite/blog/Sprint%207#sprint-retrospective" class="hash-link" aria-label="Direct link to Sprint Retrospective" title="Direct link to Sprint Retrospective" translate="no">​</a></h2>
+<p>During this sprint, the team successfully executed a heavy workload focused on testing, security enhancements and deployment infrastructure. We achieved our main goals regarding software stability by completing all testing phases and successfully setting up the CI/CD pipelines and deployment. The team also successfully finished the suit calibration and Keycloak customization. The only task that was not concluded was "Suit building", which will be carried over to the next sprint so the we can finish it, since it's a time-consuming task. Overall, the team delivered 9 out of 10 tasks, demonstrating a strong pace and ensuring a robust foundation for the system's finalization.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sprint 6]]></title>
         <id>https://motionsuit.github.io/microsite/blog/Sprint 6</id>
