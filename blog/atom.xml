@@ -2,16 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://motionsuit.github.io/microsite/blog</id>
     <title>MotionSuit Blog</title>
-    <updated>2026-05-19T01:59:01.190Z</updated>
+    <updated>2026-05-26T03:07:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://motionsuit.github.io/microsite/blog"/>
     <subtitle>MotionSuit Blog</subtitle>
     <icon>https://motionsuit.github.io/microsite/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[Sprint 8]]></title>
+        <id>https://motionsuit.github.io/microsite/blog/Sprint 8</id>
+        <link href="https://motionsuit.github.io/microsite/blog/Sprint 8"/>
+        <updated>2026-05-26T03:07:00.000Z</updated>
+        <summary type="html"><![CDATA[From: 2026-05-20]]></summary>
+        <content type="html"><![CDATA[<p><strong>From</strong>: 2026-05-20</p>
+<p><strong>To</strong>: 2026-05-26</p>
+<p><strong>Scrum Master</strong>: Mariana Marques</p>
+<p><strong>Product Owner</strong>: IEETA</p>
+<p><strong>Developers</strong>: Marta Cruz, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro</p>
+<p>In this sprint, our primary focus was on the deliverals for the fifth milestone, whitch were the video, demo and poster for our project.</p>
+<ul>
+<li>Promotional Video</li>
+<li>Sudents@DETI Poster</li>
+<li>Project Demo</li>
+<li>Fix some bugs</li>
+<li>Suit building</li>
+<li>Update Microsite</li>
+</ul>
+<table><thead><tr><th>Expected</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>6</td></tr><tr><td>Story Points</td><td>40</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-backlog">Sprint Backlog<a href="https://motionsuit.github.io/microsite/blog/Sprint%208#sprint-backlog" class="hash-link" aria-label="Direct link to Sprint Backlog" title="Direct link to Sprint Backlog" translate="no">​</a></h2>
+<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-52</td><td>Promotional Video</td><td>All</td><td>Done</td><td>10</td></tr><tr><td>KAN-53</td><td>Sudents@DETI Poster</td><td>Matilde Rodrigues</td><td>Done</td><td>5</td></tr><tr><td>KAN-54</td><td>Fix some bugs</td><td>Marta Cruz and Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-55</td><td>Project Demo</td><td>Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-51</td><td>Suit building</td><td>All</td><td>Not Done</td><td>10</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="task-status-completednot-completed">Task Status (Completed/Not Completed)<a href="https://motionsuit.github.io/microsite/blog/Sprint%208#task-status-completednot-completed" class="hash-link" aria-label="Direct link to Task Status (Completed/Not Completed)" title="Direct link to Task Status (Completed/Not Completed)" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-52: Promotional Video</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-53: Sudents@DETI Poster</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-54: Project Demo</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-55: Fix some bugs</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-51: Suit building</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-16: Update Microsite</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://motionsuit.github.io/microsite/blog/Sprint%208#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
+<table><thead><tr><th>Concluded</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>5</td></tr><tr><td>Story Points</td><td>30</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-retrospective">Sprint Retrospective<a href="https://motionsuit.github.io/microsite/blog/Sprint%208#sprint-retrospective" class="hash-link" aria-label="Direct link to Sprint Retrospective" title="Direct link to Sprint Retrospective" translate="no">​</a></h2>
+<p>During this sprint, the team successfully delivered all that was asked for this milestone. Howerver, we haven't made much progress in the building of the suit but through no fault of our own due to a lack of hardware. Overall, the team delivered 5 out of 6 tasks, demonstrating that we are on the right track towards completing the project.</p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Sprint 7]]></title>
         <id>https://motionsuit.github.io/microsite/blog/Sprint 7</id>
         <link href="https://motionsuit.github.io/microsite/blog/Sprint 7"/>
-        <updated>2026-05-19T01:59:01.190Z</updated>
+        <updated>2026-05-19T02:02:07.000Z</updated>
         <summary type="html"><![CDATA[From: 2026-05-06]]></summary>
         <content type="html"><![CDATA[<p><strong>From</strong>: 2026-05-06</p>
 <p><strong>To</strong>: 2026-05-19</p>
