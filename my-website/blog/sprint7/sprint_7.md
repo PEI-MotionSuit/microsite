@@ -37,28 +37,28 @@ In this sprint, our primary focus shifted towards system stabilization, quality 
 
 | Task (KAN-\*) | Description                 | Developer                                      | State | Story Points |
 | --------------- | --------------------------- | ---------------------------------------------- | ----- | ------------ |
-| KAN-43        | Customizing keycloak pages | Catarina Ribeiro | Done  | 5      |
-| KAN-44        | Unit tests  | Matilde Rodrigues                  | Done  | 5      |
-| KAN-45        | Scalability and performance tests | Mariana Marques and Marta Cruz                | Done  | 5          |
-| KAN-46        | Integration tests | Catarina Ribeiro | Done  | 5      |
-| KAN-47        | Analysis and improvement of security          | Marta Cruz            | Done  | 5          |
-| KAN-48        | CI/CD Pipelines | Beatriz Francisco | Done  | 5      |
-| KAN-49        | Deployment | Beatriz Francisco | Done  | 5      |
-| KAN-50        | Suit calibration | Marta Cruz and Beatriz Francisco | Done  | 5      |
-| KAN-51        | Suit building | All | Not Done  | 10      |
+| KAN-42        | Customizing keycloak pages | Catarina Ribeiro | Done  | 5      |
+| KAN-43        | Unit tests  | Matilde Rodrigues                  | Done  | 5      |
+| KAN-44        | Scalability and performance tests | Mariana Marques and Marta Cruz                | Done  | 5          |
+| KAN-45        | Integration tests | Catarina Ribeiro | Done  | 5      |
+| KAN-46        | Analysis and improvement of security          | Marta Cruz            | Done  | 5          |
+| KAN-47        | CI/CD Pipelines | Beatriz Francisco | Done  | 5      |
+| KAN-48        | Deployment | Beatriz Francisco | Done  | 5      |
+| KAN-49        | Suit calibration | Marta Cruz and Beatriz Francisco | Done  | 5      |
+| KAN-50        | Suit building | All | Not Done  | 10      |
 | KAN-16        | Update Microsite            | Catarina Ribeiro            | Done  | 5          |
 
 ### Task Status (Completed/Not Completed)
 
-- [x] KAN-43: Customizing keycloak pages
-- [x] KAN-44: Unit tests
-- [x] KAN-45: Scalability and performance tests
-- [x] KAN-46: Integration tests
-- [x] KAN-47: Analysis and improvement of security
-- [x] KAN-48: CI/CD Pipelines
-- [x] KAN-49: Deployment
-- [x] KAN-50: Suit calibration
-- [ ] KAN-51: Suit building
+- [x] KAN-42: Customizing keycloak pages
+- [x] KAN-43: Unit tests
+- [x] KAN-44: Scalability and performance tests
+- [x] KAN-45: Integration tests
+- [x] KAN-46: Analysis and improvement of security
+- [x] KAN-47: CI/CD Pipelines
+- [x] KAN-48: Deployment
+- [x] KAN-49: Suit calibration
+- [ ] KAN-50: Suit building
 - [x] KAN-16: Update Microsite
 
 ## Sprint Review
