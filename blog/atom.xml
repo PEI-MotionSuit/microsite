@@ -2,11 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://motionsuit.github.io/microsite/blog</id>
     <title>MotionSuit Blog</title>
-    <updated>2026-05-26T03:07:00.000Z</updated>
+    <updated>2026-06-03T13:35:45.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://motionsuit.github.io/microsite/blog"/>
     <subtitle>MotionSuit Blog</subtitle>
     <icon>https://motionsuit.github.io/microsite/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Sprint 9]]></title>
+        <id>https://motionsuit.github.io/microsite/blog/Sprint 9</id>
+        <link href="https://motionsuit.github.io/microsite/blog/Sprint 9"/>
+        <updated>2026-06-03T13:35:45.000Z</updated>
+        <summary type="html"><![CDATA[From: 2026-05-27]]></summary>
+        <content type="html"><![CDATA[<p><strong>From</strong>: 2026-05-27</p>
+<p><strong>To</strong>: 2026-06-02</p>
+<p><strong>Scrum Master</strong>: Marta Cruz</p>
+<p><strong>Product Owner</strong>: IEETA</p>
+<p><strong>Developers</strong>: Mariana Marques, Beatriz Francisco, Matilde Rodrigues, Catarina Ribeiro</p>
+<p>In this final sprint, our primary focus was entirely dedicated to finishing the building of the suit, as it was the last remaining component needed to successfully complete our project.</p>
+<ul>
+<li>Suit building</li>
+<li>Update Microsite</li>
+</ul>
+<table><thead><tr><th>Expected</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>2</td></tr><tr><td>Story Points</td><td>15</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-backlog">Sprint Backlog<a href="https://motionsuit.github.io/microsite/blog/Sprint%209#sprint-backlog" class="hash-link" aria-label="Direct link to Sprint Backlog" title="Direct link to Sprint Backlog" translate="no">​</a></h2>
+<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-50</td><td>Suit building</td><td>All</td><td>Done</td><td>10</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="task-status-completednot-completed">Task Status (Completed/Not Completed)<a href="https://motionsuit.github.io/microsite/blog/Sprint%209#task-status-completednot-completed" class="hash-link" aria-label="Direct link to Task Status (Completed/Not Completed)" title="Direct link to Task Status (Completed/Not Completed)" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-50: Suit building</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-16: Update Microsite</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://motionsuit.github.io/microsite/blog/Sprint%209#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
+<table><thead><tr><th>Concluded</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>2</td></tr><tr><td>Story Points</td><td>15</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-retrospective">Sprint Retrospective<a href="https://motionsuit.github.io/microsite/blog/Sprint%209#sprint-retrospective" class="hash-link" aria-label="Direct link to Sprint Retrospective" title="Direct link to Sprint Retrospective" translate="no">​</a></h2>
+<p>During this sprint, the team successfully completed the project by finalizing the building of the suit. Overcoming previous delays, we managed to assemble the final components. Overall, we delivered all the planned tasks for this sprint, marking the successful conclusion of our project!</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sprint 8]]></title>
         <id>https://motionsuit.github.io/microsite/blog/Sprint 8</id>
@@ -29,14 +58,14 @@
 </ul>
 <table><thead><tr><th>Expected</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>6</td></tr><tr><td>Story Points</td><td>40</td></tr></tbody></table>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-backlog">Sprint Backlog<a href="https://motionsuit.github.io/microsite/blog/Sprint%208#sprint-backlog" class="hash-link" aria-label="Direct link to Sprint Backlog" title="Direct link to Sprint Backlog" translate="no">​</a></h2>
-<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-52</td><td>Promotional Video</td><td>All</td><td>Done</td><td>10</td></tr><tr><td>KAN-53</td><td>Sudents@DETI Poster</td><td>Matilde Rodrigues</td><td>Done</td><td>5</td></tr><tr><td>KAN-54</td><td>Fix some bugs</td><td>Marta Cruz and Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-55</td><td>Project Demo</td><td>Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-51</td><td>Suit building</td><td>All</td><td>Not Done</td><td>10</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
+<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-51</td><td>Promotional Video</td><td>All</td><td>Done</td><td>10</td></tr><tr><td>KAN-52</td><td>Sudents@DETI Poster</td><td>Matilde Rodrigues</td><td>Done</td><td>5</td></tr><tr><td>KAN-53</td><td>Fix some bugs</td><td>Marta Cruz and Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-54</td><td>Project Demo</td><td>Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-50</td><td>Suit building</td><td>All</td><td>Not Done</td><td>10</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="task-status-completednot-completed">Task Status (Completed/Not Completed)<a href="https://motionsuit.github.io/microsite/blog/Sprint%208#task-status-completednot-completed" class="hash-link" aria-label="Direct link to Task Status (Completed/Not Completed)" title="Direct link to Task Status (Completed/Not Completed)" translate="no">​</a></h3>
 <ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-52: Promotional Video</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-53: Sudents@DETI Poster</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-54: Project Demo</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-55: Fix some bugs</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-51: Suit building</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-51: Promotional Video</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-52: Sudents@DETI Poster</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-53: Project Demo</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-54: Fix some bugs</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-50: Suit building</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-16: Update Microsite</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://motionsuit.github.io/microsite/blog/Sprint%208#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
@@ -70,18 +99,18 @@
 </ul>
 <table><thead><tr><th>Expected</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>10</td></tr><tr><td>Story Points</td><td>55</td></tr></tbody></table>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-backlog">Sprint Backlog<a href="https://motionsuit.github.io/microsite/blog/Sprint%207#sprint-backlog" class="hash-link" aria-label="Direct link to Sprint Backlog" title="Direct link to Sprint Backlog" translate="no">​</a></h2>
-<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-43</td><td>Customizing keycloak pages</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-44</td><td>Unit tests</td><td>Matilde Rodrigues</td><td>Done</td><td>5</td></tr><tr><td>KAN-45</td><td>Scalability and performance tests</td><td>Mariana Marques and Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-46</td><td>Integration tests</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-47</td><td>Analysis and improvement of security</td><td>Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-48</td><td>CI/CD Pipelines</td><td>Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-49</td><td>Deployment</td><td>Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-50</td><td>Suit calibration</td><td>Marta Cruz and Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-51</td><td>Suit building</td><td>All</td><td>Not Done</td><td>10</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
+<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-42</td><td>Customizing keycloak pages</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-43</td><td>Unit tests</td><td>Matilde Rodrigues</td><td>Done</td><td>5</td></tr><tr><td>KAN-44</td><td>Scalability and performance tests</td><td>Mariana Marques and Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-45</td><td>Integration tests</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-46</td><td>Analysis and improvement of security</td><td>Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-47</td><td>CI/CD Pipelines</td><td>Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-48</td><td>Deployment</td><td>Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-49</td><td>Suit calibration</td><td>Marta Cruz and Beatriz Francisco</td><td>Done</td><td>5</td></tr><tr><td>KAN-50</td><td>Suit building</td><td>All</td><td>Not Done</td><td>10</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="task-status-completednot-completed">Task Status (Completed/Not Completed)<a href="https://motionsuit.github.io/microsite/blog/Sprint%207#task-status-completednot-completed" class="hash-link" aria-label="Direct link to Task Status (Completed/Not Completed)" title="Direct link to Task Status (Completed/Not Completed)" translate="no">​</a></h3>
 <ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-43: Customizing keycloak pages</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-44: Unit tests</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-45: Scalability and performance tests</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-46: Integration tests</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-47: Analysis and improvement of security</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-48: CI/CD Pipelines</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-49: Deployment</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-50: Suit calibration</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-51: Suit building</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-42: Customizing keycloak pages</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-43: Unit tests</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-44: Scalability and performance tests</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-45: Integration tests</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-46: Analysis and improvement of security</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-47: CI/CD Pipelines</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-48: Deployment</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-49: Suit calibration</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-50: Suit building</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-16: Update Microsite</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://motionsuit.github.io/microsite/blog/Sprint%207#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
@@ -107,12 +136,11 @@
 <li>Implementation of 7 sensores</li>
 <li>Chatbot implementation</li>
 <li>PWA suport implementation</li>
-<li>Smartwatch integration</li>
 <li>Update Microsite</li>
 </ul>
-<table><thead><tr><th>Expected</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>7</td></tr><tr><td>Story Points</td><td>50</td></tr></tbody></table>
+<table><thead><tr><th>Expected</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>6</td></tr><tr><td>Story Points</td><td>40</td></tr></tbody></table>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-backlog">Sprint Backlog<a href="https://motionsuit.github.io/microsite/blog/Sprint%206#sprint-backlog" class="hash-link" aria-label="Direct link to Sprint Backlog" title="Direct link to Sprint Backlog" translate="no">​</a></h2>
-<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-35</td><td>Researcher analysis</td><td>Beatriz Francisco and Mariana Marques</td><td>Done</td><td>10</td></tr><tr><td>KAN-38</td><td>Keycloak implementation</td><td>Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-39</td><td>Implementation of 7 sensores</td><td>Marta Cruz</td><td>Done</td><td>10</td></tr><tr><td>KAN-40</td><td>Chatbot implementation</td><td>Beatriz Francisco and Matilde Rodrigues</td><td>Done</td><td>5</td></tr><tr><td>KAN-41</td><td>PWA suport implementation</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-42</td><td>Smartwatch integration</td><td>Mariana Marques</td><td>Not Done</td><td>10</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
+<table><thead><tr><th>Task (KAN-*)</th><th>Description</th><th>Developer</th><th>State</th><th>Story Points</th></tr></thead><tbody><tr><td>KAN-35</td><td>Researcher analysis</td><td>Beatriz Francisco and Mariana Marques</td><td>Done</td><td>10</td></tr><tr><td>KAN-38</td><td>Keycloak implementation</td><td>Marta Cruz</td><td>Done</td><td>5</td></tr><tr><td>KAN-39</td><td>Implementation of 7 sensores</td><td>Marta Cruz</td><td>Done</td><td>10</td></tr><tr><td>KAN-40</td><td>Chatbot implementation</td><td>Beatriz Francisco and Matilde Rodrigues</td><td>Done</td><td>5</td></tr><tr><td>KAN-41</td><td>PWA suport implementation</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr><tr><td>KAN-16</td><td>Update Microsite</td><td>Catarina Ribeiro</td><td>Done</td><td>5</td></tr></tbody></table>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="task-status-completednot-completed">Task Status (Completed/Not Completed)<a href="https://motionsuit.github.io/microsite/blog/Sprint%206#task-status-completednot-completed" class="hash-link" aria-label="Direct link to Task Status (Completed/Not Completed)" title="Direct link to Task Status (Completed/Not Completed)" translate="no">​</a></h3>
 <ul class="contains-task-list containsTaskList_mC6p">
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-35: Researcher analysis</li>
@@ -120,13 +148,12 @@
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-39: Implementation of 7 sensores</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-40: Chatbot implementation</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-41: PWA suport implementation</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->KAN-42: Smartwatch integration</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->KAN-16: Update Microsite</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-review">Sprint Review<a href="https://motionsuit.github.io/microsite/blog/Sprint%206#sprint-review" class="hash-link" aria-label="Direct link to Sprint Review" title="Direct link to Sprint Review" translate="no">​</a></h2>
-<table><thead><tr><th>Concluded</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>5</td></tr><tr><td>Story Points</td><td>40</td></tr></tbody></table>
+<table><thead><tr><th>Concluded</th><th>Quantity</th></tr></thead><tbody><tr><td>Tasks</td><td>6</td></tr><tr><td>Story Points</td><td>40</td></tr></tbody></table>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="sprint-retrospective">Sprint Retrospective<a href="https://motionsuit.github.io/microsite/blog/Sprint%206#sprint-retrospective" class="hash-link" aria-label="Direct link to Sprint Retrospective" title="Direct link to Sprint Retrospective" translate="no">​</a></h2>
-<p>During this sprint, the team successfully focused on finalizing system deployments, completing pending work, and expanding multi-sensor support. As planned, tasks Researcher analysis and Keycloak implementation, which were initiated ahead of schedule in the previous sprint, were fully completed. Similarly, work on Smartwatch integration began during this sprint, but it is intentionally scheduled to be finished in the upcoming sprint. Overall, the team delivered 6 out of 7 tasks and achieved 40 story points, successfully meeting the sprint's core objectives and maintaining steady progress.</p>]]></content>
+<p>During this sprint, the team successfully focused on finalizing system deployments, completing pending work, and expanding multi-sensor support. As planned, tasks Researcher analysis and Keycloak implementation, which were initiated ahead of schedule in the previous sprint, were fully completed. Overall, the team delivered 6 out of 6 tasks and achieved 40 story points, successfully meeting the sprint's core objectives and maintaining steady progress.</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Sprint 5]]></title>

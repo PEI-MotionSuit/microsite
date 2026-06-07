@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[5152],{4117:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/microsite/blog","page":1,"postsPerPage":9,"totalPages":1,"totalCount":9,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
