@@ -1,11 +1,11 @@
 ---
-sidebar_position: 10
+sidebar_position: 13
 ---
 
 import github from "@site/static/img/technologies/icons8-github-240.png";
 import notion from "@site/static/img/technologies/notion.png";
 import docusaurus from "@site/static/img/technologies/docusaurus.png";
-import google from "@site/static/img/technologies/google_docs.png";
+import latex from "@site/static/img/technologies/latex.png";
 import canva from "@site/static/img/technologies/canva.png";
 import jira from "@site/static/img/technologies/jira.png";
 import react from "@site/static/img/technologies/React.png";
@@ -15,8 +15,12 @@ import tanStack from "@site/static/img/technologies/tanStack.png";
 import tailwind from "@site/static/img/technologies/tailwind_css.png";
 import fastapi from "@site/static/img/technologies/fastapi.png";
 import postgresql from "@site/static/img/technologies/Postgresql.png";
-import clickhouse from "@site/static/img/technologies/clickhouse.png";
+import sqlite from "@site/static/img/technologies/sqlite.jpeg";
+import timescaleDB from "@site/static/img/technologies/timescale.png";
+import flask from "@site/static/img/technologies/flask.png";
 import mongodb from "@site/static/img/technologies/mongodb.png";
+import ollama from "@site/static/img/technologies/ollama.png";
+import keycloak from "@site/static/img/technologies/keycloak.png";
 import docker from "@site/static/img/technologies/docker.png";
 import nginx from "@site/static/img/technologies/nginx.png";
 
@@ -38,10 +42,14 @@ This section lists the different technologies we use and how they are used.
 |<img src={tailwind} width="60" height="60"/>| Tailwind CSS v4 | Styling and design |
 |<img src={fastapi} width="60" height="60"/>| FastAPI | Backend API framework |
 |<img src={postgresql} width="60" height="60"/>| PostgreSQL | Relational database |
-|<img src={clickhouse} width="60" height="60"/>| Clickhouse | Time series databases |
+|<img src={sqlite} width="60" height="60"/>| SQLite | Raspberry Pi local database |
+|<img src={timescaleDB} width="60" height="60"/>| TimescaleDB | Time series databases |
 |<img src={mongodb} width="60" height="60"/>| mongoDB | Document-oriented databases |
+|<img src={flask} width="60" height="60"/>| Flask | Lightweight REST server on Raspberry Pi |
+|<img src={ollama} width="60" height="60"/>| Ollama | Local execution of the JARVIS assistant |
+|<img src={keycloak} width="60" height="60"/>| Keycloak | Identity and access management |
 |<img src={docker} width="60" height="60"/>| Docker | Containerization |
 |<img src={nginx} width="60" height="60"/>| Nginx | Web server and proxy |
 |<img src={docusaurus} width="60" height="60"/>| Docusaurus | Communication Plan |
 |<img src={canva} width="60" height="60"/>| Canva | Presentations |
-|<img src={google} width="60" height="60"/>| Google Docs | Documentation |
+|<img src={latex} width="60" height="60"/>| Latex | Documentation |

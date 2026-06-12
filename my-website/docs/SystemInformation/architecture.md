@@ -7,7 +7,7 @@ sidebar_position: 1
 ## System overview
 The proposed system architecture implements a comprehensive biomechanical monitoring solution supporting six distinct user interfaces, one web application, and one Raspberry Pi server deployment. The design follows a microservices pattern to ensure scalability, maintainability, and clear separation of concerns across functional domains.
 
-![image](@site/static/img/arquitetura.png)
+![image](@site/static/img/architecture.png)
 
 ## Frontend Architecture
 The frontend architecture provides differentiated user experiences based on role-based access control, implementing two primary application modes:

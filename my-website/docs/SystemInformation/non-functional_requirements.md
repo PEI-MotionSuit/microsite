@@ -12,9 +12,8 @@ Non-functional requirements are requirements related to the use of the applicati
   
 ### Security & Privacy
 - Data Encryption: All protected health information (PHI) shall be encrypted at rest using AES-256 and in transit using TLS 1.3.
-- Authentication Security: Password storage shall implement salted cryptographic hashing (bcrypt with work factor 12).
+- Authentication Security: User credentials are managed by Keycloak, the application server never stores or has direct access to raw passwords.
 - Access Control: Role-based access control (RBAC) shall enforce minimum privilege principles across all system modules.
-- Audit Compliance: The system shall maintain comprehensive audit trails of all data access and modifications for compliance with GDPR and health data regulations.
 
 ### Reliability
 - Data Durability: The system shall guarantee zero data loss during network interruptions through local data caching and graceful recovery mechanisms.
@@ -27,10 +26,12 @@ Non-functional requirements are requirements related to the use of the applicati
 - Accessibility: Web interfaces shall comply with WCAG 2.1 Level AA standards for users with visual and motor impairments.
 
 ### Hardware Constraints
-- Sensor Accuracy: Inertial measurement units (IMUs) shall maintain angular measurement accuracy of ±2° under normal operating conditions.
+- Wearability: The hardware components shall be lightweight and flexible enough to be worn for extended periods (e.g., full work shifts) without restricting natural body movement.
+- Sensor Coverage: The system shall support a distributed set of motion sensors capable of capturing orientation data from all major body segments to enable full‑body posture reconstruction.
+- Sampling Adequacy: The sensor sampling rate shall be sufficient to detect meaningful changes in posture and trigger real‑time alerts without perceptible delay to the user.
   
 ### Data Management
-- Query Performance: Database queries for user-facing operations shall return results within 2 seconds for 95% of requests.
+- Query Performance: Database queries for user-facing operations shall return results within 5 seconds for 95% of requests.
 - Data Retention: Raw sensor data shall be retained for 30 days, aggregated metrics for 90 days, and user account data indefinitely unless deleted.
 
 ### Maintainability & Scalability

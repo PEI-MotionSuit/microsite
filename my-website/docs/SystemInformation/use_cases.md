@@ -2,14 +2,12 @@
 sidebar_position: 7
 ---
 
-import SuitUsers from "@site/static/img/useCases/suit_users.jpg";
-import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
+import SuitUsers from "@site/static/img/useCases/suit_user_use_case.png";
+import AdminResearch from "@site/static/img/useCases/admin_researcher_use_cases.png";
 
 # Use Cases
 
 <img src={SuitUsers} width="550"/>
-
-<img src={AdminResearch} width="550"/>
 
 ### UC-1 – Receive Posture Alerts
 **Actor:** Suit User <br />
@@ -33,17 +31,17 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 
 
-### UC-2 – View Historical Statistics
+### UC-2 – View Session History
 **Actor:** Suit User <br />
-**Description:** User views statistics on the dashboard.
+**Description:** User views their complete session history.
 
 **Preconditions:** User logged in.
 
 **Main Flow:**
-1. Open user dashboard.
-2. The dashboard displays a real-time 3D model that reproduces the user’s movements based on colected data.
+1. Open Profile page.
+2. The page displays a list of all the sessions the user started in that especific account.
 3. Optional export data:
-    - Period filters: 7 days, 30 days, 3 months.
+    - Period filters: 7 days, 30 days, 90 days.
     - Export data as PDF, CSV and JSON for sharing with healthcare professionals.
 
 **Postconditions:** Data visualized and optionally saved.
@@ -56,11 +54,12 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 **Main Flow:**
 1. User accesses Dashboard.
-2. System displays:
+2. The dashboard displays a real-time 3D model that reproduces the user’s movements based on colected data.
+3. System displays:
     - REBA/ROSA score
     - Body temperature
-3. Color indicators show normal/warning/risk in the posture angles.
-4. Automatic updates in real-time.
+4. Color indicators show normal/warning/risk in the posture angles.
+5. Automatic updates in real-time.
 
 **Postconditions:** Continuous feedback provided.
 
@@ -70,17 +69,33 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Description:** Configure how and when alerts are triggered.
 
 **Main Flow:**
-1. Open Alert Settings.
+1. Open Settings Page.
 2. Choose:
     - Notification type
     - Quiet hours
-3. Save preferences.
+3. Preferences saved automatic.
 
 **Postconditions:** Personalized alert rules active.
 
 
 
-### UC-5 – Define Improvement Goals
+### UC-5 – Calibrate the Suit
+**Actor:** Suit User <br />
+**Description:** Ensure suit sensors measure correctly.
+
+**Main Flow:**
+1. Start Calibration in app.
+2. Follow visual step-by-step poses.
+3. System validates sensor data quality.
+4. Displays “Calibration successful.”
+
+**Alternative:** Retry or factory reset if failed.
+
+**Postconditions:** Calibration profile stored with timestamp.
+
+
+
+### UC-6 – Define Improvement Goals
 **Actor:** Suit User <br />
 **Description:** User sets posture improvement objectives.
 
@@ -96,7 +111,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 
 
-### UC-6 – Track Goal Progress
+### UC-7 – Track Goal Progress
 **Actor:** Suit User <br />
 **Description:** Monitor progress toward posture goals in real-time.
 
@@ -115,22 +130,6 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 
 
-### UC-7 – Calibrate the Suit
-**Actor:** Suit User <br />
-**Description:** Ensure suit sensors measure correctly.
-
-**Main Flow:**
-1. Start Calibration in app.
-2. Follow visual step-by-step poses.
-3. System validates sensor data quality.
-4. Displays “Calibration successful.”
-
-**Alternative:** Retry or factory reset if failed.
-
-**Postconditions:** Calibration profile stored with timestamp.
-
-
-
 ### UC-8 – Earn Rewards and Achievements
 **Actor:** Suit User <br />
 **Description:** User receives recognition for consistent improvement.
@@ -146,7 +145,7 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 
 **Postconditions:** Achievements saved in user profile.
 
-
+<img src={AdminResearch} width="550"/>
 
 ### UC-9 – Access Full System Information
 **Actor:** Administrator <br />
@@ -208,8 +207,49 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Postconditions:** Group-based analysis stored or exported.
 
 
+### UC-13 – Manage Experimental Studies
 
-### UC-13 – Login & Authentication
+**Actor:** Researcher 
+**Description:** Create and organize experimental studies and assign participants to them.
+
+**Main Flow:**
+1. Navigates to the experiments management section.
+2. Creates a new study by defining title, description, start/end dates, and target participant count.
+3. Assigns or removes individual participants to/from active studies.
+4. Updates the lifecycle status of the study (Planning, In Progress, Completed).
+
+**Postconditions:** Experimental study is structured, updated, and populated with participants.
+
+### UC-14 – Visually Explore Data
+
+**Actor:** Researcher 
+**Description:** Use interactive charts to identify trends, correlations, and anomalies in aggregated data.
+
+**Main Flow:**
+1. Accesses the visual analysis dashboard.
+2. Filters the view to analyze either the global participant pool or a specific experimental study.
+3. Groups the visualized data dynamically by demographic variables (e.g., profession, age).
+4. Interacts with charts illustrating key metrics (e.g., posture scores over time, alert frequency heatmaps).
+5. Exports the specific data subset currently represented in the visual charts.
+
+**Postconditions:** Visual insights are obtained and the focused data subset is exported.
+
+### UC-15 – Export Data Subsets
+
+**Actor:** Researcher 
+**Description:** Download specific subsets of captured data in various formats for external analysis.
+
+**Main Flow:**
+1. Navigates to the data export interface.
+2. Selects the data scope (e.g., individual session data, raw user data, full system data, or filtered user groups).
+3. Applies predefined timeframe filters (last 7 days, last 30 days, or all time).
+4. Chooses the desired export file format (CSV, JSON, or PDF).
+5. Executes the export and downloads the generated file.
+
+**Postconditions:** Selected data is securely downloaded to the researcher's local machine in the chosen format.
+
+
+### UC-16 – Login & Authentication
 **Actor:** Suit User / Researcher / Administrator <br />
 **Description:** The user securely logs into the MotionSuit application to access personalized features, data, and permissions.
 
@@ -241,39 +281,3 @@ import AdminResearch from "@site/static/img/useCases/Admin_Researcher.jpg";
 **Special Requirements:**
 - Passwords must be encrypted.
 
-
-
-### UC-14 – Generate Weekly Report
-**Actor:** System and Suit User <br />
-**Description:** The system automatically generates a weekly summary report of posture performance and progress for each user.
-
-**Preconditions:**
-- User has worn and synchronized MotionSuit data during the week.
-- The system has access to stored posture and goal data.
-
-**Main Flow:**
-1. Every Sunday at midnight (or configurable time), the system compiles the previous week’s posture records.
-2. The system calculates metrics:
-    - Average daily posture quality (%)
-    - Total time in risk postures
-    - Number of alerts triggered
-    - Goal completion rate (%)
-    - Streak performance (if applicable)
-3. The report is generated in PDF or web format.
-4. System sends a notification to the user (“Your weekly posture summary is ready!”).
-5. User opens the report in the app to review:
-    - Graphs of posture improvement
-    - Achievements or rewards earned
-
-**Alternative Flows:**
-- A1: If no data available → system displays message (“No data recorded for this period”).
-
-**Postconditions:**
-- Weekly report generated and stored in user history.
-- Summary statistics updated in dashboards.
-
-
-**Special Requirements:** 
-- Reports should be exportable (PDF, CSV).
-- Must support secure download (user-specific access control).
-- Graphs auto-generated using data visualization library.

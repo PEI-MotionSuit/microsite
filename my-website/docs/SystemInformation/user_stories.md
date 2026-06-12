@@ -27,14 +27,13 @@ The main actors are the **suit users**, the **administrators** and the **researc
 
 <br />
 
--> <u>*US-2:*</u> **As a** suit user, **I want** to check my stats on the app **so that** I can see my improvements over time.
+-> <u>*US-2:*</u> **As a** suit user, **I want** to have access my complete session history on the app **so that** I can see my improvements over time.
 
 **Acceptance Criteria:**
 1. User must be logged in to the app
-2. The app must have a tab where the records of the user are kept, the app must keep the records per user
-3. The dashboard displays a real-time 3D model that reproduces the user’s movements based on colected data.
-4. Option to export data: <br />
-    a. Period filters: 7 days, 30 days, 3 months<br />
+2. The app must have a tab where all user sessions are listed, the app must keep the sessions per user
+3. Option to export data: <br />
+    a. Period filters: 7 days, 30 days, 90 days<br />
     b. Export data as PDF, CSV and JSON for sharing with healthcare professionals<br />
 
 
@@ -44,10 +43,9 @@ The main actors are the **suit users**, the **administrators** and the **researc
 
 **Acceptance Criteria:**
 1. User must be logged in the app
-2. The app must have a tab with the records (dashboard in real time)
+2. The dashboard displays a real-time 3D model that reproduces the user’s movements based on colected data.
 3. Real-time metrics: <br />
     a. Current REBA/ROSA score <br />
-    b. Body temperature <br />
 4. Automatic updates in real-time
 
 
@@ -132,25 +130,25 @@ The main actors are the **suit users**, the **administrators** and the **researc
 
 ### Administration
 
--> <u>*US-9:*</u> **As an** administrator **I want** to have access to all the information **so that** I can help and monitor the students' work.
+-> <u>*US-9:*</u> **As an** administrator **I want** to manage user accounts **so that** I can control access and provide support.
 
 **Acceptance Criteria:**
-1. Full access to GitHub organization (all repositories)
-2. Access to all project documentation
-3. Administrator permissions in all systems
-4. Activity logs for all users
-5. Ability to reset passwords and manage accounts
+1. View user's details and deactivate user accounts
+2. Access all user's sessions history
+3. Approve and reject researcher's acoounts
+4. View usage statistics per user
 
 
 <br />
 
--> <u>*US-10:*</u> **As an** administrator **I want** to manage user accounts so that I can control access and provide support.
+-> <u>*US-10:*</u> **As an** administrator **I want** to view real‑time system statistics **so that** I can monitor the platform’s health and usage.
 
 **Acceptance Criteria:**
-1. Edit and deactivate user accounts
-2. Approve and reject researchers
-3. Password reset when needed
-4. View usage statistics per user
+1. View system metrics (total users, active users, suit usage)
+2. View API health metrics
+3. View user's database storage status
+4. Download a full database dump (CSV, JSON, PDF)
+5. Export all raw sensor logs and complete session histories (CSV, JSON, PDF)
 
 
 <br />
@@ -177,7 +175,35 @@ The main actors are the **suit users**, the **administrators** and the **researc
 1. Group users by:<br />
     a. Profession (factory/construction/office etc)<br />
     b. Age and gender<br />
-2. Export the data of the user group.
+2. Export the data of the user group
+
+
+-> <u>*US-13:*</u> **As a** researcher **I want** to manage experimental studies **so that** I can organize participants into specific study groups.
+
+**Acceptance Criteria:**
+1. Create new studies defining:
+    a. Title and description
+    b. Start and end dates
+    c. Target participant count
+2. Assign or remove participants to/from active studies.
+3. Update the lifecycle status of the study (Planning, In Progress, Completed)
+
+
+-> <u>*US-14:*</u> **As a** researcher **I want** to visually explore the aggregated biomechanical data **so that** I can easily identify trends, correlations, and anomalies.
+
+**Acceptance Criteria:**
+1. View interactive charts illustrating key metrics (e.g., posture scores over time, alert frequency heatmaps)
+2. Filter the visual analysis to show either the global participant pool or a specific experimental study
+3. Dynamically group the visualized data by different demographic variables (e.g., profession, age).
+4. Export the specific data subset currently represented in the charts
+
+
+-> <u>*US-15:*</u> **As a** researcher **I want** to export specific subsets of captured data **so that** I can download them for external analysis.
+
+**Acceptance Criteria:**
+1. Select the specific data scope for export (e.g., individual session data, raw user data, full system data, or filtered user groups)
+2. Filter the exported data by predefined timeframes (last 7 days, last 30 days, or all time)
+3. Choose the exported file format between CSV, JSON, or PDF
 
 
 <!-- r -->

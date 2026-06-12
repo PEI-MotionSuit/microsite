@@ -6,29 +6,62 @@ sidebar_position: 1
 
 import React from 'react';
 import ImageCarousel from '@site/src/components/ImageCarousel';
-import Page1 from '@site/static/img/userAccess/login1.jpeg';
+import Page1 from '@site/static/img/userAccess/login1.png';
 import Page2 from '@site/static/img/userAccess/login2.png';
-import Page3 from '@site/static/img/userAccess/signin1.jpeg';
-import Page4 from '@site/static/img/userAccess/signin2.jpeg';
-import Page5 from '@site/static/img/userAccess/signin3.png';
-import Page6 from '@site/static/img/userAccess/signin4.png';
-import Page7 from '@site/static/img/userAccess/terms.jpeg';
+import Page3 from '@site/static/img/userAccess/login3.png';
+import Page4 from '@site/static/img/userAccess/login4.png';
+import Page5 from '@site/static/img/userAccess/login5.png';
+import Page6 from '@site/static/img/userAccess/login6.png';
+import Page7 from '@site/static/img/userAccess/signin1.png';
+import Page8 from '@site/static/img/userAccess/signin2.png';
+import Page9 from '@site/static/img/userAccess/signin3.png';
+import Page10 from '@site/static/img/userAccess/signin4.png';
+import Page11 from '@site/static/img/userAccess/signin5.png';
+import Page12 from '@site/static/img/userAccess/signin6.png';
+import Page13 from '@site/static/img/userAccess/researcher1.png';
+import Page14 from '@site/static/img/userAccess/researcher2.png';
+import Page15 from '@site/static/img/userAccess/extra1.png';
+import Page16 from '@site/static/img/userAccess/extra2.png';
+import Page17 from '@site/static/img/userAccess/extra3.png';
+
+To secure the MotionSuit ecosystem, we integrated Keycloak as the central identity and access management provider. Instead of using default Keycloak login pages, we built fully customised interfaces (login, registration, password recovery, and email verification) using Keycloakify a tool that compiles React themes into a Keycloak-compatible format.
+
+All authentication pages inherit the same visual identity as the main dashboard, ensuring a seamless user experience.
 
 ## Log in
 
 <ImageCarousel items={[
-    { url: Page1, caption: 'Login for all users' },
-    { 
-      url: Page2, caption: 'Login for all users', style: { maxWidth: '200px' }},
+    { url: Page1, caption: 'Inicial Page for every user' },
+    { url: Page2, caption: 'Login for all users', style: { maxWidth: '200px' }},
+    { url: Page3, caption: 'Forgot Password', style: { maxWidth: '200px' }},
+    { url: Page4, caption: 'After email input', style: { maxWidth: '200px' }},
+    { url: Page5, caption: 'Account confirmation email', style: { maxWidth: '380px' }},
+    { url: Page6, caption: 'Update Password', style: { maxWidth: '200px' }},
 ]} />
 
 
 ## Sign In
 
 <ImageCarousel items={[
-    { url: Page3, caption: 'Registration for Suit Users' },
-    { url: Page4, caption: 'Registration for Researchers' },
-    { url: Page5, style: { maxWidth: '200px' }},
-    { url: Page6, style: { maxWidth: '200px' }},
-    { url: Page7, caption: 'Terms and conditions' },
+    { url: Page7, caption: 'Sign in for all users', style: { maxWidth: '200px' }},
+    { url: Page8, caption: 'Email Verification', style: { maxWidth: '200px' }},
+    { url: Page9, caption: 'Email to verify account email', style: { maxWidth: '380px' }},
+    { url: Page10, caption: 'Complete Profile', style: { maxWidth: '200px' }},
+    { url: Page11, caption: 'Complete Profile', style: { maxWidth: '200px' }},
+    { url: Page12, caption: 'Terms & Conditions', style: { maxWidth: '200px' }},
+]} />
+
+## Researcher Sign In
+
+<ImageCarousel items={[
+    { url: Page13, caption: 'Pending Approval', style: { maxWidth: '200px' }},
+    { url: Page14, caption: 'Admin Rejection', style: { maxWidth: '200px' }},
+]} />
+
+## Extra Pages
+
+<ImageCarousel items={[
+    { url: Page15, caption: 'Login Error', style: { maxWidth: '200px' }},
+    { url: Page16, caption: 'Expired Session', style: { maxWidth: '200px' }},
+    { url: Page17, caption: 'Email Checking', style: { maxWidth: '200px' }},
 ]} />
